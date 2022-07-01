@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup-2.css">
+    <title>OTP verification</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="container">
+            <h1>OTP verification</h1>
+            <div class="email-details">
+                OTP sent to <b class="email">*****ar@gmail.com</b>
+            </div>
+            <p>6 digit code</p>
+            <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+                <div class="inputs">
+                    <input type="text" id="num1" maxlength="1" name="num1" data-next="num2" />
+                    <input type="text" id="num2" maxlength="1" name="num2" data-next="num3" data-previous="num1" />
+                    <input type="text" id="num3" maxlength="1" name="num3" data-next="num4" data-previous="num2" />
+                    <input type="text" id="num4" maxlength="1" name="num4" data-next="num5" data-previous="num3" />
+                    <input type="text" id="num5" maxlength="1" name="num5" data-next="num6" data-previous="num4" />
+                    <input type="text" id="num6" maxlength="1" name="num6" data-previous="num5" />
+                </div>
+                <div class="signup-btn">
+                    <button>
+                        <b>NEXT</b>
+                    </button>
+                </div>
+            </form>
+            <div class="resend">
+                Didnt recieved OTP?<button>Resend</button>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="signup-2.js"></script>
+</body>
+
+</html>
