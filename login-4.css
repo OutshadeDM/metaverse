@@ -22,6 +22,7 @@ body {
   justify-content: center;
   padding: 5rem 4rem;
   width: 40%;
+  margin-top: 3rem;
   background-image: url(./images/signup-back.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -45,18 +46,18 @@ body {
   width: 7rem;
   height: 7rem;
   border-radius: 10rem;
-  background: linear-gradient(to bottom right, #b434c9, #cd3232);
+  background: linear-gradient(to bottom right, #b434c9, #32cd95);
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 10px 7px #b44ecb;
 }
 .inner-circle img {
-  width: 3.7rem;
+  width: 4rem;
 }
 @media only screen and (max-width: 900px) {
   .container {
     width: 80%;
-    padding: 8rem 2rem;
+    padding: 4rem 2rem;
   }
 }

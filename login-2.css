@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body {
+  font-family: "Poppins", "sans-serif";
+  background-color: #0c0517;
+  background-image: url(./images/Signup.png);
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.main {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 3rem;
+  margin-top: 2rem;
+  width: 40%;
+  background-image: url(./images/signup-back.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+.container h1 {
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+.form-username {
+  width: 80%;
+}
+.form-username label {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.input {
+  width: 100%;
+  display: flex;
+  margin: 1rem 0 2rem 0;
+}
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #3a2f49;
+  padding: 10px;
+}
+.input input:active {
+  border: none;
+  outline: none;
+}
+
+.input-img {
+  border-radius: 0 10px 10px 40px;
+  width: 9rem;
+  background-color: #483168;
+  margin-left: -4rem;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.input-icon {
+  margin-left: 1.7rem;
+  background-color: #b534c9bb;
+  box-shadow: 0px 0 10px 3px #b534c9bb;
+  width: 2rem;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+.input-icon img {
+  z-index: 2;
+}
+
+.signup-btn {
+  width: 100%;
+  margin: 3rem 0 2rem 0;
+}
+.signup-btn button {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgba(180, 52, 201, 1),
+    rgba(56, 50, 205, 1)
+  );
+  border-radius: 40px;
+  font-size: 1.3rem;
+  font-family: "Poppins", "sans-serif";
+  cursor: pointer;
+  box-shadow: 0 0px 20px 1px #9a33c9;
+  border: none;
+}
+.form-username p {
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+    margin-top: 5rem;
+    padding: 3rem 2rem;
+  }
+  .form-username {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+  .input-img {
+    width: 5rem;
+  }
+}
