@@ -1,0 +1,146 @@
+.one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-civ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.civ-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.civ-img {
+  width: 100%;
+}
+.shadow-img {
+  width: 100%;
+  height: 10rem;
+  margin-top: -6rem;
+  -moz-box-shadow: inset 0 -70px 10px -10px #000000;
+  -webkit-box-shadow: inset 0 -70px 10px -10px #000000;
+  box-shadow: inset 0 -70px 30px -10px #000;
+}
+.civ-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text-info {
+  width: 80%;
+}
+.text-info h1 {
+  font-size: 2.5rem;
+}
+.text-info p {
+  font-size: 1.5rem;
+}
+.started {
+  width: 18rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  background: linear-gradient(to right, #b21eca, #605bd0);
+  font-size: 1.9rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-weight: 900;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 100%;
+  margin-top: 4rem;
+}
+.heading-text {
+  width: 100%;
+}
+.heading-text h1 {
+  padding: 0 3%;
+  font-size: 2.5rem;
+}
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.center {
+  width: 200%;
+  margin-left: -60%;
+}
+.slick-slider .slick-prev {
+  margin-left: 41%;
+}
+.slick-slider .slick-next {
+  margin-right: 11%;
+}
+
+.slick-slider .slick-slide {
+  transform: scale(0.95);
+  filter: brightness(80%);
+  transition: transform 400ms;
+  margin: 0 3rem;
+}
+.slick-slider .slick-slide.slick-center {
+  transform: scale(1);
+  filter: brightness(120%);
+}
+.slick-track {
+  height: 9rem;
+}
+.carousel-cards {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 1);
+  margin: 2rem;
+  width: 30rem;
+  border-radius: 20px;
+  padding: 7rem 0;
+}
+.carousel-cards h1 {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+
+.foot-container {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .center {
+    width: 160%;
+    margin-left: -51%;
+  }
+  .slick-slider .slick-prev {
+    margin-left: 36%;
+  }
+  .slick-slider .slick-next {
+    margin-right: 4%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .center {
+    width: 100%;
+    margin-left: 0;
+  }
+  .slick-slider .slick-prev {
+    margin-left: 4%;
+  }
+  .slick-slider .slick-next {
+    margin-right: 4%;
+  }
+  .heading-text h1 {
+    text-align: center;
+    padding: 0;
+  }
+}
