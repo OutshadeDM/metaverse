@@ -27,10 +27,12 @@
 }
 .foot-elem-child a {
   color: white;
+  font-weight: 200;
   margin: 1.5rem 0;
 }
 .foot-elem a {
   color: white;
+  font-weight: 200;
 }
 
 @media only screen and (max-width: 768px) {
