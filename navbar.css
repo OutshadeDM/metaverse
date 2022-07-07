@@ -261,7 +261,7 @@ li.active .nav-link {
 
 @media only screen and (max-width: 500px) {
   .profile-name,
-  #profile-image {
+  #dots-image {
     display: none;
   }
   .dropbtn {
