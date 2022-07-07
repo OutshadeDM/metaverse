@@ -685,6 +685,7 @@ img {
 }
 .input-icon img {
   z-index: 2;
+  margin-top: 4px;
 }
 .form-elem label {
   font-size: 1.7rem;
