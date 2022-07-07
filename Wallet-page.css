@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "Poppins", "sans-serif";
+}
+.one {
+  display: flex;
+  width: 100%;
+}
+.sub-nav {
+  margin-left: 5%;
+  display: flex;
+  width: 90%;
+}
+.subnav-elem {
+  margin: 2rem;
+}
+.sub-nav a {
+  color: #8a8a8a;
+  font-size: 1.5rem;
+}
+.active-elem a {
+  color: #e989ff;
+  font-weight: 900;
+}
+.two {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: url(./images/Signup.png);
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  width: 20%;
+  background: url(./images/wallet-left-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
