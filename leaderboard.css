@@ -5,16 +5,31 @@ body {
 .one {
   display: flex;
   justify-content: center;
-
   width: 100%;
 }
 .sub-nav {
   display: flex;
   justify-content: center;
   width: 90%;
+  overflow-x: scroll;
+}
+.sub-nav::-webkit-scrollbar {
+  width: 10px;
+}
+.sub-nav::-webkit-scrollbar-track {
+  display: none;
+}
+.sub-nav::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(132, 29, 181, 1),
+    rgba(213, 131, 252, 0.58)
+  );
 }
 .subnav-elem {
   margin: 2rem;
+  text-align: center;
 }
 .sub-nav a {
   color: #8a8a8a;
@@ -133,6 +148,13 @@ td span {
   padding: 5px;
   text-align: center;
   width: 200px;
+}
+
+@media only screen and (max-width: 720px) {
+  .sub-nav {
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 650px) {
