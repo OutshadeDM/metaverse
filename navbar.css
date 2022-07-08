@@ -51,7 +51,7 @@ a {
   width: 60%;
   justify-content: flex-end;
   margin-top: 20px;
-  z-index: 5;
+  z-index: 1;
 }
 
 .nav-item {
@@ -160,8 +160,8 @@ li.active .nav-link {
   display: none;
   position: absolute;
   background-color: #171721;
-  top: 95px;
-  right: 10px;
+  top: 11rem;
+  right: 5%;
   min-width: 160px;
   border-radius: 7px;
   border-top: none;
@@ -273,6 +273,9 @@ li.active .nav-link {
     color: #482ff7;
     margin-top: -0.5rem;
   }
+  .dropdown-content {
+    top: 9rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -286,5 +289,8 @@ li.active .nav-link {
   .dropbtn {
     margin: 0;
     border-radius: 7px;
+  }
+  .dropdown-content {
+    top: 8rem;
   }
 }
