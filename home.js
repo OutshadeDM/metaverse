@@ -16,6 +16,26 @@ function myFunction() {
     dropdown.style.display = "block";
   }
 }
+
+$(document).ready(function () {
+  $(".slider-for").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    infinite: true,
+    fade: true,
+    asNavFor: ".slider-nav",
+  });
+  $(".slider-nav").slick({
+    slidesToShow: 3,
+    slidesToScroll: 0,
+    asNavFor: ".slider-for",
+    dots: true,
+    arrows: false,
+    infinite: true,
+    focusOnSelect: true,
+  });
+});
 // window.onclick = function (event) {
 //   if (navMenu.style.left == "0") {
 //     if (!event.target.matches(".nav-menu")) {
