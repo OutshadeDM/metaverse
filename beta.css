@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+body {
+  background: url(./images/beta-11.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #070314;
+  width: 100%;
+  overflow-x: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background: transparent;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+}
+
+.nav-text {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.nav-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13rem;
+}
+.center h1 {
+  font-size: 2.2rem;
+  text-shadow: 0px 2px 5px #c5773d;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.center h2 {
+  font-size: 1.7em;
+  font-weight: 600;
+  text-shadow: 0px 2px 5px #c5773d;
+}
+footer {
+  position: absolute;
+  bottom: 25px;
+  float: bottom;
+  font-size: 1.3rem;
+  text-shadow: 0px 2px 5px #c5773d;
+}
+footer a {
+  color: #fff;
+}
+@media only screen and (max-width: 950px) {
+  body {
+    background: url(./images/beta-6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: #070314;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background: url(./images/beta-7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    width: 100%;
+    height: 100%;
+    background-color: #070314;
+  }
+  .nav-text {
+    font-size: 0.9rem;
+  }
+  .center {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+  .center h1 {
+    font-size: 1.7rem;
+    text-shadow: 0px 2px 5px #c5773d;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .center h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 0px 2px 5px #c5773d;
+  }
+  footer {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body {
+    background: url(./images/beta-5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    width: 100%;
+    height: 100%;
+    background-color: #070314;
+  }
+  .nav-logo img {
+    width: 9rem;
+  }
+}
