@@ -17,25 +17,24 @@ function myFunction() {
   }
 }
 
-$(document).ready(function () {
-  $(".slider-for").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    infinite: true,
-    fade: true,
-    asNavFor: ".slider-nav",
-  });
-  $(".slider-nav").slick({
-    slidesToShow: 3,
-    slidesToScroll: 0,
-    asNavFor: ".slider-for",
-    dots: true,
-    arrows: false,
-    infinite: true,
-    focusOnSelect: true,
-  });
-});
+// $(".slider-for").slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   arrows: false,
+//   infinite: true,
+//   fade: true,
+//   asNavFor: ".slider-nav",
+// });
+// $(".slider-nav").slick({
+//   slidesToShow: 7,
+//   slidesToScroll: 0,
+//   infinite: true,
+//   asNavFor: ".slider-for",
+//   dots: true,
+//   centerMode: true,
+//   focusOnSelect: true,
+// });
+
 // window.onclick = function (event) {
 //   if (navMenu.style.left == "0") {
 //     if (!event.target.matches(".nav-menu")) {

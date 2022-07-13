@@ -187,7 +187,71 @@ img {
 .container {
   width: 100%;
 }
+/* .slider-for {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slider-for div {
+  width: 100%;
+}
+.slider-for img {
+  width: 100%;
+}
 
+.slider-nav img {
+  width: 150px;
+  height: 300px;
+} */
+
+/* * {
+  position: relative;
+  box-sizing: border-box;
+  outline: none;
+}
+.my-container {
+  width: 400px;
+  max-width: 400px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 10px;
+  background: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.feat-prev {
+  left: 10px;
+}
+.feat-next {
+  right: 10px;
+}
+.slider-container {
+  background: black;
+  height: 200px;
+}
+.slider-container .slider {
+  height: 100%;
+  padding: 10px;
+}
+.slider-nav-container {
+  background-color: black;
+}
+.slider-nav-container .slide-link {
+  text-align: center;
+  cursor: pointer;
+}
+.nav-num,
+.nav-title {
+  display: block;
+}
+.slick-current .nav-num,
+.slick-current .nav-title {
+  color: purple;
+}
 .slick-prev {
   position: absolute;
   z-index: 99;
@@ -199,7 +263,7 @@ img {
   z-index: 99;
   top: 120px;
   right: -50px;
-}
+} */
 .slick-prev {
   position: absolute;
   z-index: 99;
