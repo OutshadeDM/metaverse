@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.sub-nav {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  overflow-x: scroll;
+}
+.sub-nav::-webkit-scrollbar {
+  width: 10px;
+}
+.sub-nav::-webkit-scrollbar-track {
+  display: none;
+}
+.sub-nav::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(132, 29, 181, 1),
+    rgba(213, 131, 252, 0.58)
+  );
+}
+.subnav-elem {
+  margin: 2rem;
+  text-align: center;
+}
+.sub-nav a {
+  color: #8a8a8a;
+  font-size: 1.5rem;
+}
+.active-elem a {
+  color: #e989ff;
+  font-weight: 400;
+}
+.two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", "sans-serif";
+  background-color: #0c0517;
+  background-image: url(../images/Signup.png);
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: url(../images/leaderboard.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  margin: 0 2rem;
+  height: 95%;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+
+.table.table-condensed.table-striped {
+  margin-bottom: 0px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.BI_tablehead {
+  background-color: transparent;
+  color: #fff;
+}
+.table-condensed > thead.BI_tablehead > tr > th {
+  padding: 20px 10px 20px 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.table-striped > tbody > tr {
+  background-color: #171721;
+}
+.table > tbody > tr {
+  width: 1000px;
+}
+.table > tbody > tr > td,
+.table > tfoot > tr > td,
+.table > thead > tr > td {
+  border-top: none;
+  margin: 5px;
+}
+.table-condensed > tbody.BI_tablebody > tr > td {
+  padding: 15px 10px 15px 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+td img,
+td span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.fixed_header {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.fixed_header tbody {
+  display: block;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 380px;
+}
+.fixed_header tbody::-webkit-scrollbar {
+  width: 5px;
+}
+.fixed_header tbody::-webkit-scrollbar-track {
+  display: none;
+}
+.fixed_header tbody::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(
+    to bottom,
+    rgba(132, 29, 181, 1),
+    rgba(213, 131, 252, 0.58)
+  );
+}
+.fixed_header thead tr {
+  display: block;
+}
+
+.fixed_header td {
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+}
+.fixed_header th {
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+@media only screen and (max-width: 720px) {
+  .sub-nav {
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    background: url(../images/right-wallet.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .table-condensed > thead.BI_tablehead > tr > th {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .table-condensed > thead.BI_tablehead > tr > th {
+    padding: 0px;
+  }
+  .table-condensed > tbody.BI_tablebody > tr > td {
+    padding: 10px;
+  }
+}

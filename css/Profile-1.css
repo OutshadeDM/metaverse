@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "Poppins", "sans-serif";
+}
+.one {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.sub-nav {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.subnav-elem {
+  margin: 2rem;
+}
+.sub-nav a {
+  color: #8a8a8a;
+  font-size: 1.5rem;
+}
+.active-elem a {
+  color: #e989ff;
+  font-weight: 900;
+}
+
+.two {
+  width: 100%;
+  display: flex;
+  font-family: "Poppins", "sans-serif";
+  background-color: #0c0517;
+  background-image: url(../images/Signup.png);
+  background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.main {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container-1 {
+  width: 25%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/cont-1-back.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 2rem 0;
+  margin: 0 2rem;
+}
+.profile-image {
+  width: 50%;
+}
+.profile-image img {
+  width: 100%;
+  border-radius: 50rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2rem 0 1rem 0;
+}
+.email {
+  font-size: 1.3rem;
+  margin: 1rem 0 2rem 0;
+}
+.name,
+.email {
+  text-align: center;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: #171721;
+  padding: 10%;
+  border-radius: 15px;
+}
+.points h3 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.8rem;
+}
+.points-table {
+  width: 100%;
+  font-size: 1.5rem;
+  border-spacing: 1rem;
+}
+.points-table tr {
+  width: 100%;
+}
+.points-table th {
+  text-align: left;
+  color: #74747a;
+}
+.container-2 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: url(../images/cont-2-back.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  margin: 0 2rem;
+  height: 95%;
+  border-radius: 15px;
+}
+.edit-btn {
+  width: 100%;
+  text-align: right;
+}
+.edit-btn button {
+  background: transparent;
+  border: none;
+}
+.edit-btn button img {
+  width: 2rem;
+}
+.full-details {
+  margin-left: 7%;
+  width: 70%;
+  font-size: 1.5rem;
+}
+.details-table {
+  width: 100%;
+  border-spacing: 2rem;
+}
+.details-table th {
+  text-align: left;
+}
