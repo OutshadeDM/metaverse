@@ -55,6 +55,11 @@ body {
   padding: 2rem 0;
   margin: 0 2rem;
 }
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .profile-image {
   width: 50%;
 }
@@ -140,4 +145,60 @@ body {
 }
 .details-table th {
   text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-1 {
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-around;
+  }
+  .profile {
+    width: 30%;
+  }
+  .profile-image {
+    width: 80%;
+    margin-top: 2rem;
+  }
+  .email {
+    font-size: 1rem;
+  }
+  .points {
+    width: 55%;
+    padding: 2%;
+  }
+  .points h3 {
+    font-size: 1.5rem;
+  }
+  .points-table {
+    font-size: 1.2rem;
+  }
+  .container-2 {
+    width: 95%;
+    margin: 3rem 0;
+    padding: 0;
+  }
+  .edit-btn {
+    margin: 1rem 1rem 0 0;
+  }
+  .full-details {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .sub-nav {
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .subnav-elem {
+    width: 6rem;
+    text-align: center;
+    height: 40%;
+  }
 }

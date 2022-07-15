@@ -55,6 +55,11 @@ body {
   padding: 2rem 0;
   margin: 0 2rem;
 }
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .profile-image {
   width: 50%;
 }
@@ -124,7 +129,11 @@ body {
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+.separator {
+  width: 100%;
+  padding-left: 2rem;
 }
 .form-grid {
   display: grid;
@@ -198,7 +207,7 @@ body {
 }
 .btn-submit {
   width: 100%;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 .btn-submit button {
   width: 20%;
@@ -208,7 +217,6 @@ body {
   font-weight: 900;
   border-radius: 20px;
   border: none;
-  margin: 0 3rem;
   color: white;
 }
 .btn-submit button[type="submit"] {
@@ -221,4 +229,71 @@ body {
 .btn-submit button[type="reset"] {
   background: transparent;
   border: 2px solid rgba(103, 86, 208, 1);
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-1 {
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-around;
+  }
+  .profile {
+    width: 30%;
+  }
+  .profile-image {
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .email {
+    font-size: 1rem;
+  }
+  .points {
+    width: 55%;
+    padding: 2%;
+  }
+  .points h3 {
+    font-size: 1.5rem;
+  }
+  .points-table {
+    font-size: 1.2rem;
+  }
+  .container-2 {
+    width: 90%;
+    margin: 3rem 0 10rem 0;
+    padding: 2rem 1rem;
+  }
+  .separator {
+    padding-left: 0;
+  }
+  .form-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .form-grid input {
+    width: 100%;
+    padding: 1rem;
+  }
+  .btn-submit {
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  .btn-submit button {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 675px) {
+  .sub-nav {
+    overflow-x: scroll;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .subnav-elem {
+    width: 6rem;
+    text-align: center;
+    height: 40%;
+  }
 }

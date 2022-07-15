@@ -120,7 +120,7 @@ td span {
   display: block;
   width: 100%;
   overflow-y: scroll;
-  max-height: 380px;
+  max-height: 500px;
 }
 .fixed_header tbody::-webkit-scrollbar {
   width: 5px;
@@ -174,5 +174,12 @@ td span {
   }
   .table-condensed > tbody.BI_tablebody > tr > td {
     padding: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10rem;
   }
 }

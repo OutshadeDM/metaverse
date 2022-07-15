@@ -111,7 +111,6 @@
   background: transparent;
   border: none;
 }
-
 .info h1,
 .info h3 {
   margin: 0;
@@ -128,13 +127,16 @@
 .mid-2 {
   display: flex;
   justify-content: space-between;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 .rating {
   display: flex;
 }
 .rating img {
-  width: 1.3rem;
+  width: 1.6rem;
+}
+.timer {
+  margin-top: 0.7rem;
 }
 .timer-text {
   color: #b2b2b2;
@@ -143,7 +145,8 @@
 .time {
   color: #fff;
   font-size: 1.2rem;
-  margin-top: 0.7rem;
+  text-align: center;
+  /* margin-top: 0.7rem; */
 }
 .bottom {
   display: flex;
