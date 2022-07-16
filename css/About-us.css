@@ -1,0 +1,185 @@
+section {
+  margin-bottom: 80px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: -20%;
+}
+.dropdown {
+  z-index: 2;
+}
+.top {
+  /* z-index: -2; */
+  width: 100%;
+}
+#main-img {
+  width: 100%;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.bottom p {
+  width: 90%;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/curves.png);
+  /* padding: 5rem; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.two-top {
+  width: 90%;
+  border-radius: 10px;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  background: url(../images/two-top.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+.top-head h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.founders-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100rem;
+  padding: 7px;
+  border: 2px solid #ad23ca;
+}
+.image img {
+  width: 100%;
+  border-radius: 100rem;
+}
+.details h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.details h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 200;
+}
+.two-bottom {
+  width: 90%;
+  border-radius: 10px;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  background: url(../images/two-top.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.investor-one {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  grid-template-rows: repeat(1, 1fr);
+}
+.investor-two {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 1rem;
+}
+.inv-card {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  background-color: #fff;
+  padding: 1rem;
+}
+.inv-card-2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 5rem 0;
+}
+.inv-card img {
+  width: 80%;
+}
+.inv-card-2 img {
+  width: 80%;
+}
+.footer {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+  .image {
+    width: 80%;
+  }
+  .bottom p {
+    font-size: 1.3rem;
+  }
+  .investor-one,
+  .investor-two {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .founders-card-container {
+    justify-content: space-between;
+  }
+  .image {
+    width: 100%;
+  }
+  .details h1 {
+    font-size: 1.2rem;
+  }
+  .details h2 {
+    font-size: 1.1rem;
+  }
+
+  .inv-card {
+    width: 50%;
+  }
+  .inv-card img {
+    width: 100%;
+  }
+  .inv-card-2 {
+    margin: 3rem 0;
+  }
+}

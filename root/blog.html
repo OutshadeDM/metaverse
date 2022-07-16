@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+
+    <title>About Us</title>
+</head>
+
+<body>
+    <!-- Navabar -->
+    <nav class="navbar">
+        <div class="box">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <a href="#" class="nav-logo2"><img src="../images/logo.png" alt="logo" width="120" height="30"></a>
+        </div>
+        <a href="#" class="nav-logo"><img src="../images/logo.png" alt="logo" width="150" height="35"></a>
+        <ul class="nav-menu">
+
+            <li class="nav-item" id="menu">
+                <p href="#" style="font-size: 30px">
+                    Menu
+                </p>
+                <hr>
+            </li>
+            <li class="nav-item active">
+                <a href="./home.html" class="nav-link">Home</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Avatar</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Civilizations.html" class="nav-link">Civilizations</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Market-place-NFT.html" class="nav-link">Market Place</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Publish.html" class="nav-link">Publish</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Event-page-1.html" class="nav-link">Events</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+            </li>
+
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">
+                <img src="../images/profile.png" alt="" width="40">
+                <span class="profile-name">Brunom</span>
+                <!-- <i class="fa fa-ellipsis-v" aria-hidden="true"></i> -->
+                <img src="../images/dots.png" id="dots-image" alt="" width="5">
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="./Profile-1.html">Profile</a>
+                <a href="#">Notifications</a>
+                <a href="#">Wallet</a>
+                <a href="#">Purchase history</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="one">
+        <div class="banner">
+            <img src="../images/blog-banner.png" alt="">
+        </div>
+        <div class="blog-text">
+            <h1>Blog</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        </div>
+    </section>
+
+    <section class="two">
+        <div class="top">
+            <div class="search-div">
+                <input type="text" placeholder="Search . . .">
+                <div class="search-icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="filter-dropdown" id="category">
+                <button onclick="dropdown()" class="filter-dropbtn">Category &nbsp;
+                    <i class="fas fa-caret-down" aria-hidden="true" style="color: white;"
+                        onclick="dropdown()"></i></button>
+                <div class="filter-dropdown-content" id="category-content">
+                    <button>category</button>
+                    <button>category</button>
+                    <button>category</button>
+                </div>
+            </div>
+            <div class="filter-dropdown" id="time">
+                <button onclick="dropdown2()" class="filter-dropbtn">All time &nbsp;
+                    <i class="fas fa-caret-down" aria-hidden="true" style="color: white;"
+                        onclick="dropdown2()"></i></button>
+                <div class="filter-dropdown-content" id="time-content">
+                    <button>All time</button>
+                    <button>All time</button>
+                    <button>All time</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mid">
+            <h1>Top Topics</h1>
+            <div class="topics">
+                <button id="metaverse" class="topic clicked" onclick="activate(this.id)">
+                    Metaverse
+                </button>
+                <button id="crypto" class="topic" onclick="activate(this.id)">
+                    Cryptocurrency
+                </button>
+                <button id="web3" class="topic" onclick="activate(this.id)">
+                    Web-3
+                </button>
+                <button id="vr-ar" class="topic" onclick="activate(this.id)">
+                    VR/AR
+                </button>
+                <button id="blockchain" class="topic" onclick="activate(this.id)">
+                    Blockchain
+                </button>
+            </div>
+        </div>
+        <div class="bottom">
+
+            <div class="card-container metaverse">
+
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>Metaverse</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>Metaverse</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>Metaverse</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>Metaverse</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>Metaverse</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>Metaverse</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container crypto">
+
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>Cryptocurrency</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>Cryptocurrency</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>Cryptocurrency</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>Cryptocurrency</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>Cryptocurrency</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>Cryptocurrency</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container web3">
+
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>Web-3</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>Web-3</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>Web-3</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3 .png" alt="">
+                        <h1>Web-3</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>Web-3</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>Web-3</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container vr-ar">
+
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1> VR/AR</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1> VR/AR</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1> VR/AR</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1> VR/AR</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1> VR/AR</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1> VR/AR</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container blockchain">
+
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>blockchain</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>blockchain</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>blockchain</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-3.png" alt="">
+                        <h1>blockchain</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-2.png" alt="">
+                        <h1>blockchain</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-flex">
+                    <div class="card">
+                        <img src="../images/blog-1.png" alt="">
+                        <h1>blockchain</h1>
+
+                        <p class="summary">Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry. Lorem &nbsp;<a href="#">Read More</a></p>
+                        <div class="released-on">
+                            <div class="date">
+                                6 July 2022
+                            </div>
+                            &nbsp; &nbsp;
+                            <img src="../images/clock.png" alt="">
+                            &nbsp; &nbsp;
+                            <div class="time">
+                                11 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="foot-container">
+            <div class="foot-elem" style="width: 20%;">
+                <img src="../images/foot-logo.png" alt="" width="100">
+                <p>Ready to help launch your Game. along with our well-designed pages. </p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png" alt=""
+                            width="30"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../images/instagram.png" alt=""
+                            width="30"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="../images/twitter.png" alt=""
+                            width="30"></a>
+                    <a href="https://www.dribble.com" target="_blank"><img src="../images/dribbble.png" alt=""
+                            width="30"></a>
+                </div>
+            </div>
+            <div class="foot-elem foot-elem-2">
+                <div class="foot-elem-child">
+                    <h3>Important</h3>
+                    <a href="#">Home</a><br>
+                    <a href="#">Avatar</a><br>
+                    <a href="#">Civilizations</a><br>
+                    <a href="#">Publish</a><br>
+                    <a href="#">Events</a><br>
+                </div>
+                <div class="foot-elem-child">
+                    <h3>Civilizations</h3>
+                    <a href="#">Egyptian/Nile</a><br>
+                    <a href="#">Greek-Roman</a><br>
+                    <a href="#">Medieval India</a><br>
+                    <a href="#">2020 AD Current</a><br>
+                    <a href="#">3050 AD Futuristic</a><br>
+                </div>
+            </div>
+            <div class="foot-elem">
+                <h3>Contact Us</h3>
+                <a href="#">About Us</a><br>
+                <a href="#">Careers</a><br>
+                <a href="#">Support</a><br>
+                <a href="#">FaQ</a><br>
+                <a href="#">Blog</a><br>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
+    <script src="../js/blog.js">
+    </script>
+    <script src="../js/navbar.js"></script>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
