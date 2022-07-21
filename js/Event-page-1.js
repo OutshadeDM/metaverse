@@ -115,3 +115,7 @@ $(window).bind("resize", function (e) {
     this.location.reload(false); /* false to get page from cache */
   }, 200);
 });
+
+$(".car-card").click(function () {
+  window.location = "/Event-page-2.html";
+});
