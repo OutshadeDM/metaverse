@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/create-item.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+
+    <title>Create Event</title>
+</head>
+
+<body>
+    <!-- Navabar -->
+    <nav class="navbar">
+        <div class="box">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <a href="#" class="nav-logo2"><img src="../images/logo.png" alt="logo" width="120" height="30"></a>
+        </div>
+        <a href="#" class="nav-logo"><img src="../images/logo.png" alt="logo" width="150" height="35"></a>
+        <ul class="nav-menu">
+
+            <li class="nav-item" id="menu">
+                <p href="#" style="font-size: 30px">
+                    Menu
+                </p>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./home.html" class="nav-link">Home
+                </a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Avatar</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Market-place-NFT.html" class="nav-link">Market place</a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Event-page-1.html" class="nav-link">Events</b></a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./Publish.html" class="nav-link">Publish</b></a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+                <hr>
+            </li>
+            <li class="nav-item">
+                <a href="./blog.html" class="nav-link">Blog</b></a>
+                <div class="underline">
+                    <div class="shadow"></div>
+                    <hr>
+                </div>
+            </li>
+
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">
+                <img src="../images/profile.png" alt="" width="40">
+                <span class="profile-name">Brunom</span>
+                <!-- <i class="fa fa-ellipsis-v" aria-hidden="true"></i> -->
+                <img src="../images/dots.png" id="dots-image" alt="" width="5">
+            </button>
+
+            <div id="myDropdown" class="dropdown-content">
+                <a href="./Profile-1.html">Profile</a>
+                <a href="#">Notifications</a>
+                <a href="#">Wallet</a>
+                <a href="#">Purchase history</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="one">
+        <h1>Create New Event</h1>
+    </section>
+    <section class="two">
+        <div class="left">
+            <div class="input-img">
+                <input type="file" id="actual-btn" hidden>
+                <label for="actual-btn" id="img-btn">
+                    <div class="label-container"><img src="../images/add-img.png" alt=""></div>
+                </label>
+            </div>
+            <div class="info">
+                <h1>Upload image, video, audio, 3D Model*</h1>
+                <p>File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG, GLB, GLTF. Max size: 100 MB</p>
+            </div>
+        </div>
+        </div>
+        <div class="right">
+            <div class="form-container">
+                <form action="#" id="form-div">
+
+                    <label for="name">Name*</label>
+                    <input type="text" for="name" placeholder="Type your Name" name="name" required>
+
+                    <label for="link">External Link</label>
+                    <input type="text" for="link" placeholder="http://add.your.link" name="link">
+
+                    <label for="item-description">Description*</label>
+                    <textarea type="text" for="item-description"
+                        placeholder="Provide the detailed description of your item" rows="6" name="item-description"
+                        required></textarea>
+
+                    <label for="supply">Supply</label>
+                    <input type="text" for="supply" placeholder="http://add.your.link" name="supply">
+
+                    <label for="blockchain">Blockchain</label>
+
+                    <select name="blockchain" id="blockchain">
+                        <option value="Ethereum"><i class="fa-brands fa-ethereum"></i> Ethereum</option
+                            value="Ethereum">Ethereum</option>
+                        <option value="Ethereum">Ethereum</option>
+                        <option value="Ethereum">Ethereum</option>
+
+                    </select>
+
+                    <div class="buttons">
+                        <button type="button" id="cancel">Cancel</button>
+                        <button type="submit" id="submit">Upload</button>
+                    </div>
+            </div>
+
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="foot-container">
+            <div class="foot-elem" style="width: 20%;">
+                <img src="../images/foot-logo.png" alt="" width="100">
+                <p>Ready to help launch your Game. along with our well-designed pages. </p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png" alt=""
+                            width="30"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../images/instagram.png" alt=""
+                            width="30"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="../images/twitter.png" alt=""
+                            width="30"></a>
+                    <a href="https://www.dribble.com" target="_blank"><img src="../images/dribbble.png" alt=""
+                            width="30"></a>
+                </div>
+            </div>
+            <div class="foot-elem foot-elem-2">
+                <div class="foot-elem-child">
+                    <h3>Important</h3>
+                    <a href="/home.html">Home</a><br>
+                    <a href="#">Avatar</a><br>
+                    <a href="/Civilizations.html">Civilizations</a><br>
+                    <a href="/Publish.html">Publish</a><br>
+                    <a href="/Event-page-1.html">Events</a><br>
+                </div>
+                <div class="foot-elem-child">
+                    <h3>Civilizations</h3>
+                    <a href="/Civilizations.html">Egyptian/Nile</a><br>
+                    <a href="/Civilizations.html">Greek-Roman</a><br>
+                    <a href="/Civilizations.html">Medieval India</a><br>
+                    <a href="/Civilizations.html">2020 AD Current</a><br>
+                    <a href="/Civilizations.html">3050 AD Futuristic</a><br>
+                </div>
+            </div>
+            <div class="foot-elem">
+                <h3>Contact Us</h3>
+                <a href="/About-us.html">About Us</a><br>
+                <a href="/careers.html">Careers</a><br>
+                <a href="#">Support</a><br>
+                <a href="/faq.html">FaQ</a><br>
+                <a href="/blog.html">Blog</a><br>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/afc1e599bb.js" crossorigin="anonymous"></script>
+
+    <script src="../js/create-item.js">
+    </script>
+    <script src="../js/navbar.js"></script>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>

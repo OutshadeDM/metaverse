@@ -28,6 +28,7 @@ body {
 .two {
   width: 100%;
   display: flex;
+  justify-content: center;
   font-family: "Poppins", "sans-serif";
   background-color: #0c0517;
   background-image: url(../images/Signup.png);
@@ -36,6 +37,20 @@ body {
   background-repeat: no-repeat;
 }
 .main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 2rem;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/main-back-profile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.top-back {
   display: flex;
   width: 100%;
   margin-top: 2rem;
@@ -49,11 +64,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(../images/cont-1-back.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   padding: 2rem 0;
-  margin: 0 2rem;
 }
 .profile {
   display: flex;
@@ -62,10 +73,15 @@ body {
 }
 .profile-image {
   width: 50%;
+  border-radius: 50%;
+  border: 1px solid #a032d4;
+  padding: 0.5rem;
 }
 .profile-image img {
-  width: 100%;
-  border-radius: 50rem;
+  width: 95%;
+  border-radius: 80rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .name {
@@ -81,33 +97,58 @@ body {
 .email {
   text-align: center;
 }
-
-.points {
+#form-profile {
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.form-input {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-  background-color: #171721;
-  padding: 10%;
-  border-radius: 15px;
-}
-.points h3 {
-  text-align: center;
   margin: 2rem 0;
-  font-size: 1.8rem;
+  justify-content: space-between;
 }
-.points-table {
-  width: 100%;
-  font-size: 1.5rem;
-  border-spacing: 1rem;
+.submit-div {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: flex-end;
+  margin-bottom: 80px;
 }
-.points-table tr {
-  width: 100%;
+.form-input input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid transparent;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
 }
-.points-table th {
-  text-align: left;
-  color: #74747a;
+.form-input input::-webkit-outer-spin-button,
+.form-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.form-input input[type="number"] {
+  -moz-appearance: textfield;
+}
+.form-input input:focus {
+  background: transparent;
+  border-bottom: 1px solid #a961d4;
+  outline: none;
+}
+#submit {
+  background: linear-gradient(
+    to right,
+    rgba(178, 30, 202, 1),
+    rgba(96, 91, 208, 1)
+  );
+  padding: 7px 25px;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 .container-2 {
   width: 55%;
@@ -115,25 +156,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background: url(../images/cont-2-back.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   padding: 2rem;
-  margin: 0 2rem;
   height: 95%;
   border-radius: 15px;
 }
-.edit-btn {
-  width: 100%;
-  text-align: right;
-}
-.edit-btn button {
-  background: transparent;
-  border: none;
-}
-.edit-btn button img {
-  width: 2rem;
-}
+
 .full-details {
   margin-left: 7%;
   width: 70%;
@@ -146,26 +173,84 @@ body {
 .details-table th {
   text-align: left;
 }
-
+#submit {
+  display: none;
+}
+.achievements {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.achievements h1 {
+  font-size: 2rem;
+}
+.achievements hr {
+  height: 2px;
+  border-radius: 10px;
+  background-color: rgba(133, 19, 87, 0.32);
+  width: 100%;
+  border: none;
+  margin: 1rem 0;
+}
+.achievement {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.heading h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.achievement-details p {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.achievement-details a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1060px) {
+  .top-back {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-1 {
+    width: 70%;
+  }
+  .container-2 {
+    width: 70%;
+    align-items: center;
+  }
+}
 @media only screen and (max-width: 768px) {
   .main {
     flex-direction: column;
     align-items: center;
+    width: 95%;
   }
   .container-1 {
     flex-direction: row;
     width: 95%;
     justify-content: space-around;
   }
-  .profile {
+  /* .profile {
     width: 30%;
-  }
-  .profile-image {
+  } */
+  /* .profile-image {
     width: 80%;
     margin-top: 2rem;
-  }
+  } */
   .email {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .points {
     width: 55%;
@@ -200,5 +285,11 @@ body {
     width: 6rem;
     text-align: center;
     height: 40%;
+  }
+  #form-profile {
+    font-size: 1.4rem;
+  }
+  .form-input input {
+    font-size: 1.4rem;
   }
 }

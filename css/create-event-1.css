@@ -123,7 +123,7 @@ form {
 .search-icon i {
   color: #666666;
 }
-.filter-dropbtn {
+#filter-dropbtn {
   background: transparent;
   border: none;
   border-bottom: 1px solid white;
@@ -273,7 +273,7 @@ input[type="radio"]:checked + label > img {
   .input-tag input {
     font-size: 1.3rem;
   }
-  .filter-dropbtn {
+  #filter-dropbtn {
     font-size: 1.3rem;
   }
 }

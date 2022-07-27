@@ -235,12 +235,15 @@
 }
 .filter-dropbtn {
   background: transparent;
-  border-bottom: 1px solid white;
+  cursor: pointer;
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
 }
-
+.drop-text {
+  width: 3rem;
+  border-bottom: 1px solid white;
+}
 .filter-dropdown-content {
   display: none;
   position: absolute;
@@ -344,6 +347,11 @@
 }
 .five .heading h1 {
   font-size: 1.5rem;
+}
+
+.underline-btn {
+  width: 60%;
+  border: 1px solid #fff;
 }
 
 @media only screen and (max-width: 950px) {

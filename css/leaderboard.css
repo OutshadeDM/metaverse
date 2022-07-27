@@ -46,7 +46,6 @@ body {
   justify-content: center;
   font-family: "Poppins", "sans-serif";
   background-color: #0c0517;
-  background-image: url(../images/Signup.png);
   background-position: top;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -57,9 +56,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background: url(../images/leaderboard.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   padding: 2rem;
   margin: 0 2rem;
   height: 95%;
@@ -70,7 +66,7 @@ body {
 .table.table-condensed.table-striped {
   margin-bottom: 0px;
   border-collapse: separate;
-  border-spacing: 0 10px;
+  border-spacing: 0 5px;
 }
 .BI_tablehead {
   background-color: transparent;
@@ -85,9 +81,7 @@ body {
   font-size: 1.7rem;
   font-weight: 400;
 }
-.table-striped > tbody > tr {
-  background-color: #171721;
-}
+
 .table > tbody > tr {
   width: 1000px;
 }
@@ -106,6 +100,19 @@ body {
   font-size: 14px;
   color: #fff;
 }
+.table-condensed > tbody.BI_tablebody > tr.user-rank > td {
+  border-top: 1px solid #be6dff;
+  border-bottom: 1px solid #be6dff;
+}
+.table-condensed > tbody.BI_tablebody > tr.user-rank > td.start-td {
+  border-left: 1px solid #be6dff;
+  border-radius: 10px 0 0 10px;
+}
+.table-condensed > tbody.BI_tablebody > tr.user-rank > td.end-td {
+  border-right: 1px solid #be6dff;
+  border-radius: 0 10px 10px 0;
+}
+
 td img,
 td span {
   vertical-align: middle;
@@ -120,7 +127,7 @@ td span {
   display: block;
   width: 100%;
   overflow-y: scroll;
-  max-height: 500px;
+  max-height: 600px;
 }
 .fixed_header tbody::-webkit-scrollbar {
   width: 5px;
@@ -150,7 +157,29 @@ td span {
   text-align: center;
   width: 200px;
 }
+.hidden-rank {
+  display: none;
+}
+.user-rank > td {
+  border-top: 1px solid #fff;
+}
+.more {
+  width: 100%;
+  text-align: center;
+}
 
+#less-btn {
+  display: none;
+  color: #fff;
+  background: transparent;
+}
+#more-btn {
+  color: #fff;
+  background: transparent;
+}
+.user-img {
+  margin-right: 1rem;
+}
 @media only screen and (max-width: 720px) {
   .sub-nav {
     justify-content: flex-start;

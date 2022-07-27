@@ -40,6 +40,7 @@
   display: flex;
   width: 40%;
   justify-content: center;
+  margin-bottom: 5rem;
   align-items: center;
 }
 .search-div {
@@ -58,7 +59,7 @@
   border: none;
   outline: none;
 }
-.search-divinput:active {
+.search-div input:active {
   border: none;
   outline: none;
 }
@@ -91,16 +92,9 @@
   width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
 }
-.card-creation {
-  display: flex;
-  flex-direction: column;
-  background-color: #171721;
-  margin: 2rem;
-  padding: 5px;
-  border-radius: 10px;
-  box-shadow: 0 1px 1px rgba(255, 255, 255, 1);
-}
+
 .card-top {
   margin: 1rem 1rem 2rem 1rem;
   display: flex;
@@ -174,7 +168,6 @@
   font-size: 1.1rem;
 }
 .time {
-  color: #fff;
   font-size: 1.2rem;
   text-align: center;
   /* margin-top: 0.7rem; */
@@ -203,11 +196,13 @@
 }
 #cards-2 {
   display: none;
+  margin-top: 30px;
 }
 #toggle-btn {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 #more-btn {
   width: 7%;
@@ -225,6 +220,69 @@
 .bottom-cont {
   margin-bottom: 80px;
 }
+.card-flex {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171721;
+  border-radius: 20px;
+  border: 1px solid #db00ff;
+  padding: 1rem;
+}
+.card img {
+  width: 100%;
+}
+.summary {
+  margin: 0;
+}
+.card a {
+  color: #f6aaff;
+  text-decoration: underline;
+}
+.card h1 {
+  width: 90%;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 5px 0;
+}
+.card p {
+  width: 90%;
+  font-size: 1.2rem;
+}
+.bottom-card {
+  width: 90%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.released-on {
+  display: flex;
+  justify-content: space-around;
+  color: #8b8b90;
+  font-weight: 900;
+}
+.date,
+.time {
+  font-size: 1.1rem;
+}
+.view-btn {
+  width: 8rem;
+  background: transparent;
+  border: 1px solid #6d707a;
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #95979c;
+}
+
 @media only screen and (max-width: 1360px) {
   .cards-cont {
     width: 100%;

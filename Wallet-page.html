@@ -109,11 +109,11 @@
             <div class="subnav-elem">
                 <a href="./Profile-1.html">Profile</a>
             </div>
+            <div class="subnav-elem ">
+                <a href="./leaderboard.html">Leaderboard</a>
+            </div>
             <div class="subnav-elem active-elem">
                 <a href="./Wallet-page.html">Wallet</a>
-            </div>
-            <div class="subnav-elem">
-                <a href="./leaderboard.html">Leaderboard</a>
             </div>
             <div class="subnav-elem">
                 <a href="/my-collection.html">My Collection</a>
@@ -182,13 +182,14 @@
                         <div class="card-wrap">
                             <div class="coin-card">
                                 <div class="card-top">
-                                    <h1>Buy 150 Coins for</h1>
-                                    <h1>Rs 100</h1>
+                                    <div class="coin-stack">
+                                        <img src="../images/50-coins.png" alt="" width="80">
+                                    </div>
                                 </div>
                                 <div class="card-bottom">
-                                    <div class="coin-stack">
-                                        <img src="../images/coin-stack.png" alt="" width="100">
-                                    </div>
+                                    <h1>Buy 50 Coins for</h1>
+                                    <h1>Rs 100</h1>
+
                                     <button class="buy-btn">
                                         Buy
                                     </button>
@@ -196,13 +197,14 @@
                             </div>
                             <div class="coin-card">
                                 <div class="card-top">
-                                    <h1>Buy 150 Coins for</h1>
-                                    <h1>Rs 100</h1>
+
+                                    <div class="coin-stack">
+                                        <img src="../images/150-coins.png" alt="" width="130">
+                                    </div>
                                 </div>
                                 <div class="card-bottom">
-                                    <div class="coin-stack">
-                                        <img src="../images/coin-stack.png" alt="" width="100">
-                                    </div>
+                                    <h1>Buy 150 Coins for</h1>
+                                    <h1>Rs 150</h1>
                                     <button class="buy-btn">
                                         Buy
                                     </button>
@@ -210,13 +212,13 @@
                             </div>
                             <div class="coin-card">
                                 <div class="card-top">
-                                    <h1>Buy 150 Coins for</h1>
-                                    <h1>Rs 100</h1>
+                                    <div class="coin-stack">
+                                        <img src="../images/200-coins.png" alt="" width="100">
+                                    </div>
                                 </div>
                                 <div class="card-bottom">
-                                    <div class="coin-stack">
-                                        <img src="../images/coin-stack.png" alt="" width="100">
-                                    </div>
+                                    <h1>Buy 200 Coins for</h1>
+                                    <h1>Rs 200</h1>
                                     <button class="buy-btn">
                                         Buy
                                     </button>
@@ -230,21 +232,32 @@
             </div>
             <div class="mid">
                 <div class="mid-top">
-                    <div class="coin">
-                        <img src="../images/coin-stack.png" alt="" width="100">
-                        <h1 style="font-weight: 200;">Current coins</h1>
-                        <h1 id="current-coin">150 coins</h1>
+                    <div class="coin-wrap">
+                        <div class="coin">
+                            <img src="../images/wallet-coins.png" alt="" width="80">
+                            <h1 style="font-weight: 200;">Remaining</h1>
+                            <h1 id="remaining-coin">50 coins</h1>
+                        </div>
+                        <div class="vertical">
 
+                        </div>
+                        <div class="coin">
+                            <img src="../images/wallet-coins.png" alt="" width="80">
+                            <h1 style="font-weight: 200;">Coins Spent</h1>
+                            <h1 id="coins-spent">100 coins</h1>
+                        </div>
+                        <div class="vertical">
+
+                        </div>
+                        <div class="coin">
+                            <img src="../images/wallet-coins.png" alt="" width="80">
+                            <h1 style="font-weight: 200;">Current coins</h1>
+                            <h1 id="current-coin">150 coins</h1>
+
+                        </div>
                     </div>
-                    <div class="coin">
-                        <img src="../images/coin-stack.png" alt="" width="100">
-                        <h1 style="font-weight: 200;">Coins Spent</h1>
-                        <h1 id="coins-spent">100 coins</h1>
-                    </div>
-                    <div class="coin">
-                        <img src="../images/coin-stack.png" alt="" width="100">
-                        <h1 style="font-weight: 200;">Remaining</h1>
-                        <h1 id="remaining-coin">50 coins</h1>
+                    <div class="add-btn">
+                        <button id="add-coins-btn"><b>+ Add Coins</b></button>
                     </div>
                 </div>
                 <div class="mid-bottom">
@@ -258,85 +271,119 @@
                 <div class="logs">
                     <table>
                         <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
                         <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
+                            <th>
+                                <span class="log-head">You Won </span><br>
+                                <span>binance</span>
+                            </th>
+                            <td><span class="log-head">+10 Coins</span><br>
+                                <span>05:00 PM</span>
+                            </td>
+
                         </tr>
-                        <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Won</th>
-                            <td><b>+10 Coins</b></td>
-                        </tr>
-                        <tr>
-                            <th>You Lost</th>
-                            <td><b>-15 Coins</b></td>
-                        </tr>
+
+
+
+
 
                     </table>
                 </div>

@@ -1,129 +1,63 @@
 .one {
-  margin-bottom: 10rem;
   display: flex;
-  justify-content: center;
   width: 100%;
-}
-
-.one-container {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-.search-div {
-  width: 50%;
-  display: flex;
   justify-content: center;
 }
-.search-div input {
-  width: 80%;
-  background-color: #141426;
-  /* background-color: #ffffff; */
-  border: none;
-  border-radius: 10px 0 0 10px;
-  padding: 10px;
-  color: white;
-  border: none;
-  outline: none;
-}
-.search-divinput:active {
-  border: none;
-  outline: none;
-}
-.search-icon {
-  background-color: #141426;
-  width: 3rem;
-  border-radius: 0 10px 10px 0;
-  font-size: 1.5rem;
-  padding-top: 0.6rem;
-}
-.search-icon i {
-  color: #666666;
+.create-item-head {
+  width: 100%;
 }
 
-.two {
-  display: flex;
-  justify-content: center;
+.create-item-head h1 {
   width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+.create-item-head p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sub-section {
   width: 100%;
   display: flex;
-  background: url(../images/publish-back.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   justify-content: center;
 }
-.flip {
-  background: url(../images/publish-back-2.png);
+.center-1 {
+  width: 80%;
+}
+.card-item {
+  width: 30%;
+  border: 1px solid #c3691b;
+  padding: 1rem 0;
+  border-radius: 20px;
+  margin: 20px;
+}
+.inner {
+  width: 90%;
+  background: url(../images/item-publish-1.png);
+  height: 30rem;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  justify-content: center;
-}
-.text-info {
-  width: 40%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  margin: 0 auto;
 }
-.text-info h1 {
-  font-size: 2rem;
-  width: 100%;
+.bottom {
+  width: 90%;
+  border-radius: 20px;
+  background: rgba(128, 116, 12, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0 auto;
 }
-.started {
-  width: 18rem;
-  padding: 1.5rem;
-  border-radius: 3rem;
-  background: linear-gradient(to right, #b21eca, #605bd0);
-  font-size: 1.9rem;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  border: none;
-  font-weight: 900;
-}
-.image-girl {
-  width: 40%;
-}
-
-.image-girl img {
-  width: 100%;
-  margin: 0;
-  margin-top: 2rem;
-}
-.footer {
-  margin-top: 8rem;
-}
-.foot-container {
-  margin-top: 0;
-}
-@media only screen and (max-width: 768px) {
-  .sub-section {
-    justify-content: space-around;
-  }
-  .text-info h1 {
-    font-size: 1.5rem;
-  }
-  .started {
-    width: 13rem;
-    padding: 1rem;
-    font-size: 1.5rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .text-info h1 {
-    font-size: 1.2rem;
-  }
-  .started {
-    width: 10rem;
-    font-size: 1.3rem;
-  }
+.slick-slider .slick-slide.slick-current,
+.slick-slider .slick-slide.slick-center {
+  transform: scale(1.1);
 }

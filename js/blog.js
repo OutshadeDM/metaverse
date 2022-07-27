@@ -31,3 +31,14 @@ function activate(id) {
   }
   document.getElementsByClassName(id)[0].style.display = "grid";
 }
+
+function more() {
+  document.getElementById("more-btn").style.display = "none";
+  document.getElementById("less-btn").style.display = "block";
+  document.getElementById("bottom-2").style.display = "flex";
+}
+function less() {
+  document.getElementById("less-btn").style.display = "none";
+  document.getElementById("more-btn").style.display = "block";
+  document.getElementById("bottom-2").style.display = "none";
+}
