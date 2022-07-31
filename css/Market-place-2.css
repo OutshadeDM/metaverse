@@ -12,8 +12,13 @@
   justify-content: space-between;
   width: 100%;
 }
+.one-top {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
 .search-div {
-  width: 50%;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -41,6 +46,20 @@
 }
 .search-icon i {
   color: #666666;
+}
+.create-item-cont {
+  width: 30%;
+}
+.create-item-btn {
+  padding: 1rem;
+  border-radius: 30px;
+  color: white;
+  background-image: linear-gradient(to right, #b21eca, #605bd0);
+  font-family: "Poppins", sans-serif;
+  box-shadow: -5px 5px 10px rgb(52, 38, 58);
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 500;
 }
 .options-div {
   display: flex;
@@ -209,14 +228,35 @@
 .text-details p {
   font-size: 1.5rem;
 }
-.view-btn {
-  width: 10rem;
+.explore-btn {
+  width: 14rem;
   background: transparent;
   border: 1px solid #6d707a;
   border-radius: 30px;
-  padding: 10px 5px;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 5px;
   font-size: 1.7rem;
   color: #95979c;
+}
+.view-btn {
+  width: 14rem;
+  background: transparent;
+  border: 1px solid #6d707a;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 5px;
+  font-size: 1.7rem;
+  color: #95979c;
+}
+.buy-btn {
+  width: 14rem;
+  margin-right: 20px;
+  background-image: linear-gradient(to right, #b21eca, #605bd0);
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 5px;
+  font-size: 1.7rem;
+  color: #fff;
 }
 .all-recent {
   display: flex;
@@ -330,30 +370,21 @@
   border-bottom: 1px solid #fff;
   font-family: "Poppins", sans-serif;
 }
-.four {
-  margin-top: 5rem;
+.views {
+  display: flex;
+  width: 20%;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.four .car-card {
-  box-shadow: 0 0 0 rgba(255, 255, 255, 1);
+.view-count {
+  margin-left: 3px;
 }
-.four .heading h1 {
-  font-size: 1.5rem;
+.views img {
+  width: 20px;
+  height: 10px;
 }
-.five {
-  margin-top: 4rem;
-}
-.five .car-card {
-  box-shadow: 0 0 0 rgba(255, 255, 255, 1);
-}
-.five .heading h1 {
-  font-size: 1.5rem;
-}
-
-.underline-btn {
-  width: 60%;
-  border: 1px solid #fff;
-}
-
 @media only screen and (max-width: 950px) {
   .selected-recent {
     width: 60%;

@@ -2,8 +2,9 @@ $(document).ready(function () {
   $(".responsive").slick({
     dots: true,
     infinite: false,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    arrows: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -34,17 +35,3 @@ $(document).ready(function () {
     ],
   });
 });
-// $(document).ready(function () {
-//   $(".responsive").slick({
-//     dots: true,
-//     infinite: false,
-//     arrows: true,
-//     speed: 300,
-//     slidesToShow: 5,
-//     slidesToScroll: 1,
-
-//     // You can unslick at a given breakpoint now by adding:
-//     // settings: "unslick"
-//     // instead of a settings object
-//   });
-// });

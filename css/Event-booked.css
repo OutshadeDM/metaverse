@@ -83,7 +83,8 @@ body {
   margin: 1rem 0 6rem 0;
 }
 .buttons button {
-  width: 15%;
+  width: 5rem;
+  height: 5rem;
   background: linear-gradient(to right, #b21eca, #605bd0);
   color: white;
   border: none;
@@ -92,10 +93,7 @@ body {
   font-size: 1.5rem;
   justify-content: center;
   margin: 0 1rem;
-  border-radius: 30px;
+  border-radius: 100rem;
   padding: 1rem;
   font-family: "Poppins", sans-serif;
-}
-.buttons button img {
-  margin: 0 0 0 1rem;
 }

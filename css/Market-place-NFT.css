@@ -12,8 +12,13 @@
   justify-content: space-between;
   width: 100%;
 }
+.one-top {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
 .search-div {
-  width: 50%;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -41,6 +46,20 @@
 }
 .search-icon i {
   color: #666666;
+}
+.create-item-cont {
+  width: 30%;
+}
+.create-item-btn {
+  padding: 1rem;
+  border-radius: 30px;
+  color: white;
+  background-image: linear-gradient(to right, #b21eca, #605bd0);
+  font-family: "Poppins", sans-serif;
+  box-shadow: -5px 5px 10px rgb(52, 38, 58);
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 500;
 }
 .options-div {
   display: flex;
@@ -104,12 +123,13 @@
 }
 .card-top {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
-.dots button {
-  background: transparent;
-  border: none;
+.info {
+  margin-left: 1rem;
 }
 .info h1,
 .info h3 {
@@ -129,11 +149,16 @@
   justify-content: space-between;
   margin: 1rem;
 }
-.rating {
+.views {
   display: flex;
 }
-.rating img {
-  width: 1.6rem;
+.views img {
+  width: 2rem;
+  height: 1.5rem;
+}
+.view-count {
+  margin-left: 1rem;
+  font-size: 1.2rem;
 }
 .timer {
   margin-top: 0.7rem;
@@ -171,6 +196,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+@media only screen and (max-width: 675px) {
+  .one-top {
+    flex-direction: column;
+  }
+  .create-item-cont {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
 @media only screen and (max-width: 480px) {
   .heading {
     font-size: 1.5rem;

@@ -1,13 +1,3 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-  // hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-}
-
 function myFunction() {
   let dropdown = document.getElementById("myDropdown");
   if (dropdown.style.display === "block") {
@@ -16,42 +6,6 @@ function myFunction() {
     dropdown.style.display = "block";
   }
 }
-
-// $(".slider-for").slick({
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   arrows: false,
-//   infinite: true,
-//   fade: true,
-//   asNavFor: ".slider-nav",
-// });
-// $(".slider-nav").slick({
-//   slidesToShow: 7,
-//   slidesToScroll: 0,
-//   infinite: true,
-//   asNavFor: ".slider-for",
-//   dots: true,
-//   centerMode: true,
-//   focusOnSelect: true,
-// });
-
-// window.onclick = function (event) {
-//   if (navMenu.style.left == "0") {
-//     if (!event.target.matches(".nav-menu")) {
-//       navMenu.classList.toggle("active");
-//     }
-//   }
-// };
-
-// Close the dropdown menu if the user clicks outside of it
-// window.onclick = function (event) {
-//   let dropdown2 = document.getElementById("myDropdown");
-//   if (!event.target.matches(".dropbtn")) {
-//     if (dropdown2.style.display === "block") {
-//       dropdown2.style.display = "none";
-//     }
-//   }
-// };
 
 $(".nav-item").on("click", function () {
   $(".active").removeClass("active");
@@ -100,11 +54,34 @@ $(".car-button").on("click", function () {
   alert("book now button clicked");
 });
 
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      document.querySelectorAll(".explore")[0].classList.add("fadeIn");
+    }
+    if (!entry.isIntersecting) {
+      document.querySelectorAll(".explore")[0].classList.remove("fadeIn");
+    }
+  });
+});
+
+observer.observe(document.querySelector(".explore"));
+
 $(document).ready(function () {
-  $(".single-item").slick({
-    centered: true,
-    arrows: true,
-    centerPadding: "0",
+  $(".responsive").slick({
     dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    fade: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    appendDots: $(".slick-slider-dots"),
+
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    // instead of a settings object
   });
 });

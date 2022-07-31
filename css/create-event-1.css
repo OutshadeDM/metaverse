@@ -63,8 +63,8 @@ form {
   font-size: 1.6rem;
 }
 .input-tag input[type="time"]::-webkit-calendar-picker-indicator {
-  color: rgba(0, 0, 0, 0);
-  opacity: 1;
+  /* color: #2d233b; */
+  /* opacity: 1;
   display: block;
   background: url(/images/clock-2.png);
   background-repeat: no-repeat;
@@ -72,7 +72,8 @@ form {
   width: 20px;
   height: 20px;
   border-width: thin;
-  margin: 2px;
+  margin: 2px; */
+  display: none;
 }
 .input-tag input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
@@ -126,7 +127,6 @@ form {
 #filter-dropbtn {
   background: transparent;
   border: none;
-  border-bottom: 1px solid white;
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
@@ -158,7 +158,10 @@ form {
   width: 100%;
   border: none;
 }
-
+.underline-btn {
+  width: 72%;
+  border: 1px solid #9e9ba2;
+}
 .category-cards-container {
   display: flex;
   flex-direction: column;
@@ -197,9 +200,11 @@ input[type="radio"]:checked + label > img {
 .card-text {
   position: relative;
   top: 70%;
-  width: 100%;
-  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
   z-index: 1;
+  margin-left: 2rem;
   margin-bottom: -10%;
 }
 .card-text .left {
@@ -207,14 +212,12 @@ input[type="radio"]:checked + label > img {
   text-align: left;
   font-size: 1.7rem;
   display: inline-block;
-  margin-left: 1rem;
 }
 .card-text .right {
   width: 30%;
   text-align: right;
   font-size: 1.7rem;
   display: inline-block;
-  margin-right: 1rem;
 }
 
 #cards-2 {

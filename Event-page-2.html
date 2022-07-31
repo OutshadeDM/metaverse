@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="home.css"> -->
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/Event-page-2.css">
+    <link rel="stylesheet" href="../css/Event-page-1.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
     <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
 
-    <title>Home</title>
+    <title>Events</title>
 </head>
 
 <body>
-    <!-- Navabar -->
     <nav class="navbar">
         <div class="box">
             <div class="hamburger">
@@ -86,6 +87,7 @@
                     <hr>
                 </div>
             </li>
+
         </ul>
         <div class="dropdown">
             <button class="dropbtn" onclick="myFunction()">
@@ -105,133 +107,434 @@
         </div>
     </nav>
 
+    <section class="one" style="margin-bottom:0">
+        <div class="one-container">
+            <div class="main-heading">
+                <h1>GREATEST EVENTS FOR THE BEST</h1>
+                <h2>Looking for a new way to unwind?</h2>
+                <h2>We have got just the right things!</h2>
 
-    <div class="back-btn">
-        <a href="./Event-page-1.html"><button>&#60; Back</button></a>
-    </div>
-
-    <section class="one">
-        <div class="poster-2">
-            <img src="../images/poster-2.png" alt="">
-
-        </div>
-        <div class="heading">
-            <h1>Doctor Strange - The Multiverse of Madness</h1>
-            <h2>Doctor Strange in the Multiverse of Madness - a thrilling ride through the Multiverse with Doctor
-                Strange, his trusted friend Wong and Wanda Maximoff, aka Scarlet Witch.</h2>
-        </div>
-        <div class="event-container">
-            <div class="poster">
-                <img src="../images/poster.png" alt="">
             </div>
-            <div class="booking-form">
-                <form action="/Event-booked.html">
-                    <div class="form-headings">
-                        <b>Date</b>
-                    </div>
-                    <!-- Please change the value of  -->
-                    <div class="dates">
-                        <label class="radio">
-                            <input type="radio" name="date" value="date">
-                            <span>23 April</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="date" value="date">
-                            <span>24 April</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="date" value="date">
-                            <span>25 April</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="date" value="date">
-                            <span>26 April</span>
-                        </label>
-                    </div>
-                    <div class="form-headings">
-                        <b>Time</b>
-                    </div>
-                    <div class="dates">
-                        <label class="radio">
-                            <input type="radio" name="time" value="time">
-                            <span>4:00 PM</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="time" value="time">
-                            <span>6:00 PM</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="time" value="time">
-                            <span>8:00 PM</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="time" value="time">
-                            <span>10:00 PM</span>
-                        </label>
-                    </div>
-                    <div class="form-headings">
-                        <b>Language</b>
-                    </div>
-                    <div class="dates">
-                        <label class="radio">
-                            <input type="radio" name="language" value="language">
-                            <span>Hindi</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="language" value="language">
-                            <span>English</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="language" value="language">
-                            <span>French</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="language" value="language">
-                            <span>Espanol</span>
-                        </label>
-                    </div>
-                    <div class="form-headings">
-                        <b>Choose your theatre</b>
-                    </div>
-                    <div class="dates">
-                        <label class="radio">
-                            <input type="radio" name="theatre" value="theatre">
-                            <span>Hall 1</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="theatre" value="theatre">
-                            <span>Hall 2</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="theatre" value="theatre">
-                            <span>Hall 3</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="theatre" value="theatre">
-                            <span>Hall 4</span>
-                        </label>
-                    </div>
-                    <div class="form-headings">
-                        <b>Seat</b>
-                    </div>
-                    <div class="seats">
-                        <label class="radio">
-                            <input type="radio" name="seat" value="seat">
-                            <span>Book any</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="seat" value="seat">
-                            <span>Select seat</span>
-                        </label>
-                    </div>
-                    <div class="book-btn">
-                        <button type="submit"><b>Book Now</b></button>
-                    </div>
 
-                </form>
-            </div>
         </div>
     </section>
+
+    <section class="two-2">
+        <div class="container">
+            <div class="selected-event">
+                <div class="selected-image">
+                    <img src="../images/event-2.png" alt="">
+                </div>
+                <div class="selected-text">
+                    <div class="text-details">
+                        <h1>
+                            Doctor Strange - The Multiverse of Madness
+                        </h1>
+
+                        <p class="">Doctor Strange in the Multiverse of Madness - a thrilling
+                            ride through the Multiverse with Doctor Strange, his trusted friend Wong and Wanda Maximoff,
+                            aka Scarlet Witch.</p>
+                        <h6 style="color: #c2c0c5;margin-bottom: 10px;">Date &nbsp;&nbsp;<span
+                                class="event-date">21/12/2030</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            Time&nbsp;&nbsp;<span class="event-time"></span>12:00 PM </h6>
+                        <h6 style="color: #c2c0c5">Created by Rabort crist (@rabort11)</h6>
+                    </div>
+                    <div class="cost-details">
+                        <h1>Starting Price&nbsp;&nbsp;<span style="color:#fff; font-size:
+                            2rem;">1.50 BIDS</span></h1>
+
+                        <a href="./Event-booked.html"><button class="book-btn">Book Now</button></a>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="three">
+        <div class="heading">
+            <h3>EXPLORE MORE UPCOMING EVENTS</h3>
+            <!-- <div class="scroll-buttons">
+
+                <button class="pp"><img src="../images/left.png" alt=""></button>
+                <div class="slide-num">
+
+                </div>
+                <button class="nn"><img src="../images/right.png" alt=""></button>
+            </div> -->
+        </div>
+        <div class="responsive">
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/card-1.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/card-1.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/card-1.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/event-wanda.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/event-wanda.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/event-wanda.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="four">
+        <div class="heading">
+            <h3>EXPLORE TOP EVENTS OF THE DAY</h3>
+            <!-- <div class="scroll-buttons">
+
+                <button class="pp2"><img src="../images/left.png" alt=""></button>
+                <div class="slide-num-2">
+
+                </div>
+                <button class="nn2"><img src="../images/right.png" alt=""></button>
+            </div> -->
+        </div>
+        <div class="responsive-2">
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/card-1.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/card-1.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/card-1.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/event-wanda.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/event-wanda.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+            <div class="car-card">
+
+                <div class="top">
+                    <div class="image-container" style="background-image: url(../images/event-wanda.png);">
+                    </div>
+                    <div class="date">
+                        <div class="date-text">
+                            <h1>21</h1>
+                            <h2>Dec</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="eve-info">
+                        <div class="eve-name">
+                            <b>Midnight Festival</b>
+                        </div>
+                        <div class="eve-type">
+                            <b>Dance & Music</b>
+                        </div>
+                    </div>
+
+                    <div class="time">
+                        &#128337; 11pm
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 
     <section class="footer">
         <div class="foot-container">
@@ -282,22 +585,26 @@
 
 
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.3.7/slick.min.js"></script>
-    <script src="../js/navbar.js"></script>
+    <script src="../js/navbar.js">
+    </script>
+    <script src="../js/Event-page-1.js">
+    </script>
+    <!-- <script src="home.js">
+</script> -->
 
 
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script> -->
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
 </body>
 
 </html>
