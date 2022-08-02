@@ -5,6 +5,13 @@
   width: 100%;
   margin-bottom: 80px;
 }
+.blog-main{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+font-weight: bolder;
+}
 .banner {
   display: flex;
   justify-content: center;

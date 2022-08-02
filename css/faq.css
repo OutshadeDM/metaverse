@@ -25,8 +25,8 @@
 .blog-text h1 {
   text-align: center;
   width: 100%;
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 24px;
+  font-weight: 600;
   margin-bottom: 0;
 }
 .blog-text p {
@@ -43,7 +43,9 @@
   justify-content: center;
 }
 .search-div input {
-  width: 30%;
+  width: 472px;
+  height: 18px;
+  border-radius: 19px;
   background-color: #141426;
   /* background-color: #ffffff; */
   border: none;

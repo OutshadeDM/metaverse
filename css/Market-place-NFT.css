@@ -100,6 +100,9 @@
 }
 .heading h1 {
   margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Poppins';
 }
 .slick-slider .slick-prev {
   position: absolute;

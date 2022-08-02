@@ -31,6 +31,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  height: 70px;
 }
 .hamburger,
 .box {
@@ -70,6 +71,7 @@ a {
   font-size: 1.5rem;
   font-weight: 300;
   color: #ffffff;
+  
 }
 .underline hr {
   display: block;
@@ -87,7 +89,9 @@ li.active .underline hr {
     to left,
     /* #00e6f4 5%, */ #009ea8 20%,
     #1687d9 70%
+  
   );
+  
 }
 .underline .shadow {
   opacity: 0;
@@ -110,6 +114,9 @@ li.active .nav-link {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 600;
+
+  
 }
 .nav-logo {
   font-size: 1.8rem;

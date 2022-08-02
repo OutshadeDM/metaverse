@@ -4,6 +4,15 @@
   justify-content: center;
   width: 100%;
 }
+.three-d{
+  position: absolute;
+  margin-left: 550px;
+  top: 370px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
 
 .one-container {
   display: flex;
@@ -163,6 +172,7 @@
 .timer-text {
   color: #b2b2b2;
   font-size: 1.1rem;
+  margin-top: 10px;
 }
 .time {
   color: #fff;

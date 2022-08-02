@@ -144,13 +144,15 @@
   text-align: right;
 }
 .view-btn {
-  border-radius: 30px;
-  border: 2px solid #464451;
+  border-radius: 65px;
+  border: 1px solid #6D707A;
   color: #95979c;
   padding: 1rem 2rem;
   background: transparent;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+   width: 94px;
+ /* height: 32px;   */
 }
 @media only screen and (max-width: 1205px) {
   .top-cont {
