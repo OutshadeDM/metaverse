@@ -87,9 +87,10 @@
   border-radius: 10px;
 }
 .layer p {
-  width: 100%;
+  width: 90%;
   font-size: 1.3rem;
   margin: 3rem 0;
+  margin-left: 17px;
 }
 .sign-up {
   width: 40%;
@@ -189,7 +190,7 @@ video {
   
 }
 .view{
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 .social {
   display: flex;

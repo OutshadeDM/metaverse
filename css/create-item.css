@@ -36,6 +36,10 @@
   padding: 30% 0;
   border: 1.41803px dashed rgba(252, 248, 255, 0.45);
 border-radius: 9.21721px;
+margin-left: 55px;
+}
+.info{
+  margin-left: 55px;
 }
 .event-template {
   width: 100%;
@@ -104,6 +108,7 @@ border-radius: 9.21721px;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+  margin-right: 64px;
 }
 #form-div label {
   margin: 1rem 0;
@@ -124,7 +129,7 @@ border-radius: 9.21721px;
 }
 #form-div textarea {
   resize: none;
-  width: 100%;
+  width: 672px;
 }
 .responsive {
   width: 100%;
