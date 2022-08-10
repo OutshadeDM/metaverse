@@ -28,16 +28,29 @@
 .center-1 {
   width: 80%;
 }
-.card-item {
+/* .card-item{
   width: 30%;
   border: 1px solid #c3691b;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-radius: 20px;
   margin: 20px;
-}
+} */
 .inner {
-  width: 90%;
+  width: 75%;
   background: url(../images/item-publish-1.png);
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #c3691b;
+  border-radius: 10px;
+}
+.inner_two {
+  width:100%;
+  background: url(../images/Light-house.png);
   height: 30rem;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -45,6 +58,9 @@
   align-items: flex-end;
   padding-bottom: 1rem;
   margin: 0 auto;
+  border:2.5px solid #D8B9FF;
+  border-radius: 5px;
+  object-fit: contain;
 }
 .bottom {
   width: 90%;
@@ -60,4 +76,18 @@
 .slick-slider .slick-slide.slick-current,
 .slick-slider .slick-slide.slick-center {
   transform: scale(1.1);
+}
+.gradient-button {
+  width: 275px;
+  height: 61px;
+  margin-bottom:2rem;
+  padding: 1rem;
+  border-radius: 30px;
+  color: white;
+  background-image: linear-gradient(to right, #b21eca, #605bd0);
+  font-family: "Poppins", sans-serif;
+  box-shadow: -5px 5px 10px rgb(52, 38, 58);
+  font-size: 1.7rem;
+  border: none;
+  font-weight: 500;
 }

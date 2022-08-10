@@ -49,10 +49,7 @@
         input[type=radio]:checked {
             opacity: 1;
         }
-
-
-
-
+        
         #slider label,
         #slider label .card-item {
             position: absolute;
@@ -125,6 +122,59 @@
         #s3:checked~#slide2,
         #s4:checked~#slide3,
         #s5:checked~#slide4 {
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+            transform: translate3d(-54%, 0, -100px);
+        }
+
+        /*second slideshow*/
+        #s6:checked~#slide6,
+        #s7:checked~#slide7,
+        #s8:checked~#slide8,
+        #s9:checked~#slide9,
+        #s10:checked~#slide10 {
+            box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+            transform: translate3d(0%, 0, 0px);
+        }
+
+        /* Next Slide */
+        #s6:checked~#slide7,
+        #s7:checked~#slide8,
+        #s8:checked~#slide9,
+        #s9:checked~#slide10,
+        #s10:checked~#slide6 {
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+            transform: translate3d(42%, 0, -100px);
+        }
+
+
+        /* Next to Next Slide */
+        #s6:checked~#slide8,
+        #s7:checked~#slide9,
+        #s8:checked~#slide10,
+        #s9:checked~#slide6,
+        #s10:checked~#slide7 {
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+            transform: translate3d(87%, 0, -250px);
+
+
+        }
+
+        /* Previous to Previous Slide */
+        #s6:checked~#slide9,
+        #s7:checked~#slide10,
+        #s8:checked~#slide6,
+        #s9:checked~#slide7,
+        #s10:checked~#slide8 {
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+            transform: translate3d(-108%, 0, -250px);
+        }
+
+        /* Previous Slide */
+        #s6:checked~#slide10,
+        #s7:checked~#slide6,
+        #s8:checked~#slide7,
+        #s9:checked~#slide8,
+        #s10:checked~#slide9 {
             box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
             transform: translate3d(-54%, 0, -100px);
         }
@@ -221,6 +271,7 @@
         </div>
     </nav>
 
+
     <section class="one">
         <div class="create-item-head">
             <h1>Create Your Item</h1>
@@ -228,14 +279,13 @@
                 loving fans. Tokenize the tickets as NFTs. </p>
         </div>
         <div class="container">
-
-
             <section id="slider">
                 <input type="radio" name="slider" id="s1" checked>
                 <input type="radio" name="slider" id="s2">
                 <input type="radio" name="slider" id="s3">
                 <input type="radio" name="slider" id="s4">
                 <input type="radio" name="slider" id="s5">
+
 
                 <label for="s1" id="slide1">
                     <div class="card-item">
@@ -297,9 +347,52 @@
                         </div>
                     </div>
                 </label>
+
             </section>
 
         </div>
+        <button style="border: none;" class="gradient-button">Get Started</button>
+    </section>
+
+    <section class="one">
+        <div class="create-item-head">
+            <h1>Create Your Item</h1>
+            <p>Create, ticket and host your digital events on our metaverse platform used by millions of live event
+                loving fans. Tokenize the tickets as NFTs. </p>
+        </div>
+        <div class="container">
+            <section id="slider">
+                <input type="radio" name="slider" id="s6" checked>
+                <input type="radio" name="slider" id="s7">
+                <input type="radio" name="slider" id="s8">
+                <input type="radio" name="slider" id="s9">
+                <input type="radio" name="slider" id="s10">
+
+                <label for="s6" id="slide6">
+                    <div class="inner_two">
+                    </div>
+                </label>
+                <label for="s7" id="slide7">
+                    <div class="inner_two">
+                    </div>
+                </label>
+                <label for="s8" id="slide8">
+                    <div class="inner_two">
+                    </div>
+                </label>
+                <label for="s9" id="slide9">
+                    <div class="inner_two">
+                    </div>
+                </label>
+                <label for="s10" id="slide10">
+                    <div class="inner_two">
+                    </div>
+                </label>
+
+            </section>
+
+        </div>
+        <button style="border: none;" class="gradient-button">Get Started</button>
     </section>
 
 
