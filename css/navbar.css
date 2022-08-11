@@ -82,6 +82,7 @@ a {
   transition: width 0.2s, background-color 0.5s;
   margin: 0 auto 0 auto;
   border-radius: 10px;
+  font-size: bolder;
 }
 li.active .underline hr {
   width: 100%;
@@ -89,8 +90,8 @@ li.active .underline hr {
     to left,
     /* #00e6f4 5%, */ #009ea8 20%,
     #1687d9 70%
-  
   );
+  font-size: bolder;
   
 }
 .underline .shadow {
@@ -102,11 +103,15 @@ li.active .underline hr {
     rgba(7, 149, 169, 1)
   );
   width: 0%;
+  font-size: bolder;
+
 }
 li.active .underline .shadow {
   opacity: 0.5;
   width: 100%;
   transition: width 0.2s, opacity 0.5s;
+  font-size: bolder;
+
 }
 li.active .nav-link {
   /* font-size: 72px; */
@@ -114,7 +119,7 @@ li.active .nav-link {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600 !important;
+  font-weight: 900 !important;
 
   
 }

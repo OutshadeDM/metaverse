@@ -30,6 +30,11 @@ a {
   border-bottom: 1px solid #e2e8f0;
 }
 
+li:hover .underline hr {
+  width: 100%;
+  background-image: linear-gradient( to left, #009ea8 20%, #1687d9 70% );
+}
+
 /* .navbar {
   background-color: #0c0517;
   display: flex;

@@ -94,6 +94,9 @@
 .two {
   margin-top: -3rem;
 }
+li.active .underline hr{
+  font-weight:bolder;
+}
 .heading {
   font-size: 2rem;
   margin-left: 2rem;
@@ -197,6 +200,16 @@
   background: linear-gradient(to RIGHT, #b21eca, #605bd0);
   color: white;
   font-family: "Poppins", sans-serif;
+}
+.underline .shadow {
+  opacity: 0;
+  height: 15px;
+  background: linear-gradient(
+    to bottom,
+    rgba(189, 116, 223, 0.06),
+    rgba(7, 149, 169, 1)
+  );
+  width: 0%;
 }
 
 @media only screen and (max-width: 675px) {
