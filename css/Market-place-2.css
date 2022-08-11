@@ -224,7 +224,7 @@ font-size: 18px;
   margin-left: 2rem;
 }
 .selected-image img {
-  width: 100%;
+  width: 120%;
 }
 .selected-text {
   display: flex;
@@ -233,7 +233,17 @@ font-size: 18px;
   padding: 3%;
   width: 35%;
 }
-
+.cost-btn{
+  display: flex;
+ 
+  width:400px;
+}
+.cost-details{
+  margin-left:7rem;
+}
+.text-details{
+  margin-left:7rem;
+}
 .text-details h1 {
   font-size: 3rem;
   margin: 0;
