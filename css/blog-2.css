@@ -87,10 +87,11 @@
   border-radius: 10px;
 }
 .layer p {
-  width: 90%;
-  font-size: 1.3rem;
+  width: 85%;
+  font-size: 1.2rem;
   margin: 3rem 0;
   margin-left: 17px;
+  
 }
 .sign-up {
   width: 40%;
