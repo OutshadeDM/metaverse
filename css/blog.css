@@ -7,11 +7,11 @@
 }
 .blog-main{
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-font-weight: bolder;
-}
+  font-style: normal;
+  font-weight: bolder; 
+  font-size: 40px;
+  font-weight: bolder;
+  }
 .banner {
   display: flex;
   justify-content: center;
@@ -28,14 +28,15 @@ font-weight: bolder;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
-.blog-text h1 {
+/* .blog-text p{
   text-align: center;
   width: 100%;
   font-size: 3rem;
-  font-weight: 900;
+  font-weight: bold;
   margin-bottom: 0;
-}
+}  */
 .blog-text p {
   text-align: center;
   width: 60%;
@@ -51,8 +52,12 @@ font-weight: bolder;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
-  margin-bottom: 40px;
+  width: 58%;
+  margin-bottom: 107px;
+}
+.title-top-picks{
+  font-size: 30px;
+  font-weight: 800;
 }
 .search-div {
   width: 50%;
@@ -60,7 +65,7 @@ font-weight: bolder;
   justify-content: center;
 }
 .search-div input {
-  width: 100%;
+  width: 355px;
   background-color: #141426;
   /* background-color: #ffffff; */
   border: none;
