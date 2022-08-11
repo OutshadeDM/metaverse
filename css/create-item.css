@@ -37,6 +37,9 @@
   border: 1.41803px dashed rgba(252, 248, 255, 0.45);
 border-radius: 9.21721px;
 margin-left: 55px;
+opacity:0.6;
+margin-top:1rem;
+margin-right:1rem;
 }
 .info{
   margin-left: 55px;
@@ -109,6 +112,7 @@ margin-left: 55px;
   align-items: flex-start;
   gap: 10px;
   margin-right: 64px;
+  margin-left:3rem;
 }
 #form-div label {
   margin: 1rem 0;
@@ -117,7 +121,7 @@ margin-left: 55px;
 #form-div input,
 #form-div textarea,
 #form-div select {
-  padding: 1rem;
+  padding: 1.5rem;
   width: 50%;
   border-radius: 10px;
   border: none;
