@@ -647,6 +647,7 @@ img {
 
 .card-container {
   filter: brightness(100%);
+  margin-left:-42px;
 }
 .civil-card {
   display: flex;
