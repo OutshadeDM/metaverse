@@ -70,5 +70,5 @@ var x = setInterval(function () {
 }, 1000);
 
 $(".bid-btn").click(function () {
-  window.location = "/html/Market-place-2.html";
+  window.location = "/Market-place-2.html";
 });
