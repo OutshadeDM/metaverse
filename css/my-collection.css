@@ -85,7 +85,9 @@
   height: 5rem;
   font-weight: 700;
 }
-
+.checked {
+  color: orange;
+}
 .bottom-cont {
   width: 100%;
   display: flex;
