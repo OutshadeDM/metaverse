@@ -113,7 +113,18 @@ li.active .underline .shadow {
   font-size: bolder;
 
 }
+
 li.active .nav-link {
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#eee, #00c8df);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900 !important;
+
+  
+}
+li:hover {
   /* font-size: 72px; */
   background: -webkit-linear-gradient(#eee, #00c8df);
   background-clip: text;

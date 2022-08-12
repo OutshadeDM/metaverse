@@ -639,7 +639,7 @@ img {
   padding: 0;
 
   border: none;
-  border-radius: 100%;
+  border-radius: 10%;
   background-color: rgb(203, 203, 203);
 
   text-indent: -9999px;
