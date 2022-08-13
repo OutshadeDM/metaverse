@@ -5,6 +5,7 @@
   width: 100%;
   margin-bottom: 80px;
 }
+
 .blog-main{
   font-family: 'Poppins';
   font-style: normal;
@@ -191,6 +192,7 @@
   border-radius: 10px;
   border: 1px solid #db00ff;
   padding: 1rem;
+  
 }
 .card img {
   width: 100%;

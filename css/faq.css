@@ -170,6 +170,7 @@
 .count-value {
   width: 100%;
   text-align: right;
+  font-weight: 700;
 }
 @media only screen and (max-width: 690px) {
   .faq-cards-container {

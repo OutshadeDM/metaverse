@@ -149,6 +149,7 @@ section {
   background-color: #fff;
   padding: 1rem;
   margin: 2rem 0;
+  object-fit: contain;
 }
 .inv-card-3 {
   display: flex;
