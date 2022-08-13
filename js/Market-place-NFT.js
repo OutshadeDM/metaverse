@@ -1,10 +1,26 @@
 $(document).ready(function () {
   $(".responsive").slick({
     dots: true,
+    arrows: true,
+    variableWidth: true,
     infinite: false,
     speed: 300,
     slidesToShow: 4.5,
     slidesToScroll: 1,
+    onInit: function (e) {
+      $(".slide-num").append(
+        '<div class="slick-counter">' +
+          parseInt(e.currentSlide + 1, 10) +
+          " / " +
+          e.slideCount +
+          "</div>"
+      );
+    },
+    onAfterChange: function (e) {
+      $(".slide-num")
+        .find(".slick-counter")
+        .html(e.currentSlide + 1 + " / " + e.slideCount);
+    },
     responsive: [
       {
         breakpoint: 1024,

@@ -24,6 +24,9 @@ body {
   color: #e989ff;
   font-weight: 900;
 }
+.form-heading{
+  font-weight:900 !important;
+}
 
 .two {
   width: 100%;
