@@ -644,6 +644,7 @@ img {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 530px;
 }
 .responsive {
   width: 100%;
