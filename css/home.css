@@ -371,6 +371,7 @@ img {
 }
 .info {
   width: 100%;
+  font-weight: 400;
 }
 .info li {
   list-style: none;
@@ -528,11 +529,13 @@ img {
   align-items: flex-end;
   justify-content: center;
   width: 50%;
+  
 }
 .avatar-text h1 {
   width: 70%;
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin:0;
 }
 .avatar-text p {
   width: 70%;
@@ -551,6 +554,15 @@ img {
   font-size: 1.7rem;
   border: none;
   font-weight: 500;
+}
+.img-heart{
+  filter: invert(1);
+  width: 18px;
+  z-index: 2;
+  position: absolute;
+  top:8px;
+  left: 185px;
+  object-fit: contain;
 }
 .gradient-button-exp{
   width: 137px;
