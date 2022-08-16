@@ -8,7 +8,17 @@
 .create-item-head {
   width: 100%;
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
 
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 .create-item-head h1 {
   width: 100%;
   text-align: center;
