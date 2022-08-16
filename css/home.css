@@ -16,6 +16,18 @@ html {
 section {
   margin-bottom: 80px;
 }
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 .footer {
   margin-bottom: 0;
 }
