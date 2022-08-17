@@ -17,9 +17,10 @@
 }
 .social-icon {
   display: flex;
-  width: 60%;
+  width: 74%;
   justify-content: space-between;
-  margin-top:5px;
+  margin-top:40px;
+  align-items: center;
 }
 .foot-elem-2 {
   display: flex;

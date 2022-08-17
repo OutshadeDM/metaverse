@@ -556,7 +556,7 @@ img {
   font-weight: 200;
 }
 .gradient-button {
-  width: 275px;
+  width: 148px;
   height: 61px;
   padding: 1rem;
   border-radius: 30px;
@@ -564,7 +564,7 @@ img {
   background-image: linear-gradient(to right, #b21eca, #605bd0);
   font-family: "Poppins", sans-serif;
   box-shadow: -5px 5px 10px rgb(52, 38, 58);
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   border: none;
   font-weight: 500;
 }
@@ -647,11 +647,17 @@ img {
   margin-bottom: 0;
 }
 .five .gradient-button {
-  width: 148px;
-  height: 50px;
-  font-size: 2rem;
+  width: 118px;
+  height: 47px;
+  padding: 1rem;
+  border-radius: 30px;
+  color: white;
+  background-image: linear-gradient(to right, #b21eca, #605bd0);
+  font-family: "Poppins", sans-serif;
   box-shadow: -5px 5px 10px rgb(52, 38, 58);
-  margin: 3rem 0;
+  font-size: 1.7rem;
+  border: none;
+  font-weight: 500;
 }
 
 .six {
@@ -659,6 +665,12 @@ img {
   justify-content: center;
   width: 100%;
   height: 530px;
+  
+}
+@media only screen and (min-width: 1300px) {
+  .six {
+    height: 800px;
+  }
 }
 .responsive {
   width: 100%;
@@ -689,6 +701,7 @@ img {
 .card-container {
   filter: brightness(100%);
   margin-left:-42px;
+  
 }
 .civil-card {
   display: flex;
@@ -731,8 +744,8 @@ img {
 .store-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
 }
 
@@ -756,7 +769,7 @@ img {
 .store-grid-wrapper {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 96%;
 }
 .store-grid {
   display: grid;
@@ -862,14 +875,10 @@ font-size: 36px;
 }
 
 .input-img {
-  border-radius: 0 10px 10px 40px;
-  width: 9rem;
-  background-color: #483168;
-  margin-left: -4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.15);
+    margin-left: -6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .msg-img {
   width: 15rem;
@@ -879,8 +888,7 @@ font-size: 36px;
 }
 .input-icon {
   margin-left: 1.7rem;
-  background-color: #b534c9bb;
-  box-shadow: 0px 0 10px 3px #b534c9bb;
+
   width: 3rem;
   text-align: center;
   border-radius: 5px;
@@ -928,7 +936,7 @@ font-size: 36px;
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .partners-1 {
   display: flex;
@@ -964,6 +972,9 @@ font-size: 36px;
 .divider {
   width: 5px;
   background-color: #fff;
+}
+.footer-p{
+  width: 277px;
 }
 .avatar-img img{
   -webkit-animation: fadein 9s; /* Safari, Chrome and Opera > 12.1 */
@@ -1082,10 +1093,7 @@ font-size: 36px;
   .explore-text p {
     width: 90%;
   }
-  .five .gradient-button {
-    width: 50%;
-    font-size: 1.5rem;
-  }
+ 
 }
 @media only screen and (max-width: 650px) {
   .survey-form {
