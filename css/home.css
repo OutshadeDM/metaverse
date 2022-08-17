@@ -984,6 +984,18 @@ font-size: 36px;
        animation: fadein 9s;
   
 }
+.avatar-btn{
+  width: 275px;
+  height: 61px;
+    padding:16px 32px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(to right, #b21eca, #605bd0);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    /* box-shadow: -5px 5px 10px rgb(52, 38, 58); */
+}
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
