@@ -35,7 +35,8 @@
   justify-content: center;
 }
 .search-div input {
-  width: 80%;
+  width: 70%;
+  font-style: italic;
   background-color: #141426;
   /* background-color: #ffffff; */
   border: none;
@@ -44,6 +45,7 @@
   color: white;
   border: none;
   outline: none;
+  font-weight: 400;
 }
 .search-divinput:active {
   border: none;
@@ -170,6 +172,7 @@ li.active .underline hr{
 }
 .views {
   display: flex;
+  margin-top: 10px;
 }
 .views img {
   width: 2rem;
@@ -182,20 +185,29 @@ li.active .underline hr{
 .timer {
   margin-top: 0.7rem;
 }
+.prof-id{
+  opacity:0.4;
+}
 .timer-text {
   color: #b2b2b2;
-  font-size: 1.1rem;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -4px;
+}
+.name{
+  font-size: 10px;
 }
 .time {
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
-  /* margin-top: 0.7rem; */
+  margin-top: 11px;
 }
 .bottom {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
+  margin-bottom: 2rem
 }
 .bid-text {
   color: #b2b2b2;
@@ -204,15 +216,19 @@ li.active .underline hr{
 .bid-value {
   color: #fff;
   font-size: 1.2rem;
+  margin-top: 5px;
 }
 .bid-btn {
   padding: 0;
-  width: 10rem;
+  width: 106.61px;
+  height: 34.95px;
   border-radius: 20px;
   border: none;
   background: linear-gradient(to RIGHT, #b21eca, #605bd0);
   color: white;
   font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-weight: 500;
 }
 .underline .shadow {
   opacity: 0;

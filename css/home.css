@@ -996,6 +996,9 @@ font-size: 36px;
     font-weight: 500px;
     /* box-shadow: -5px 5px 10px rgb(52, 38, 58); */
 }
+.foot-container {
+  font-family: "Poppins", sans-serif;
+}
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
