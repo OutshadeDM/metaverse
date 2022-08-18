@@ -5,22 +5,60 @@
   width: 100%;
 }
 .three-d {
-  position: absolute;
-  margin-left: 420px;
-  top: 280px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  
-}
+  font-size: 18px; 
+  margin: 6px;
+} 
 .refresh {
-  position: absolute;
-  width: 20px !important;
-  margin-left: -55px;
-  margin-top: 3px;
+  /* position: absolute; */
+  width: 18px ;
+  height: 20px;
+  /* margin-left: 380px;
+  top:360px; */
+ 
 }
-
+.turn-image{
+  position: absolute;
+  top: 362px;
+  left: 425px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media only screen and (min-width: 1400px) {
+  .turn-image{
+    position: absolute;
+    top: 362px;
+    left: 390px;
+   
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .turn-image{
+    position: absolute;
+    top: 362px;
+    left: 430px;
+   
+  }
+}
+@media only screen and (min-width: 1600px)  {
+  .turn-image{
+    position: absolute;
+    top: 362px;
+    left: 465px;
+   
+  }
+}
+@media only screen and (min-width: 1900px)  {
+  .turn-image{
+    position: absolute;
+    top: 362px;
+    left: 500px;
+   
+  }
+}
 .one-container {
   display: flex;
   flex-direction: column;
