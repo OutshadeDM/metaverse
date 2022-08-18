@@ -450,6 +450,7 @@ font-style: normal;
   justify-content: space-between;
   align-items: flex-end;
   margin: 1rem;
+  margin-top: 2rem;
   z-index: 2;
 }
 .eve-name {
@@ -459,6 +460,7 @@ font-style: normal;
 .eve-type {
   color: #b2b2b2;
   font-size: 1.3rem;
+  margin-top:7px;
 }
 .bid-btn {
   padding: 0;

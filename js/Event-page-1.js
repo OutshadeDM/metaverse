@@ -5,7 +5,7 @@ $(document).ready(function () {
     arrows: true,
     variableWidth: true,
     speed: 300,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     onInit: function (e) {
       $(".slide-num").append(
@@ -58,7 +58,7 @@ $(document).ready(function () {
     arrows: true,
     variableWidth: true,
     speed: 300,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     onInit: function (e) {
       $(".slide-num-2").append(
