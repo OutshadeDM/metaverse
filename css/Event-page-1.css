@@ -27,8 +27,8 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   margin: 1rem;
-  font-family: 'Poppins';
-font-style: normal;
+  font-family: "Poppins";
+  font-style: normal;
 }
 .main-heading h2 {
   font-size: 2.5rem;
@@ -232,6 +232,7 @@ font-style: normal;
   padding: 8px 5px;
   font-size: 1.7rem;
   color: #95979c;
+  font-weight: 500;
 }
 .view-btn {
   width: 14rem;
@@ -253,6 +254,7 @@ font-style: normal;
   font-size: 1.7rem;
   border: none;
   color: #fff;
+  font-weight: 500;
 }
 .create-new {
   font-family: "Poppins", sans-serif;
@@ -278,7 +280,9 @@ font-style: normal;
   font-size: 2rem;
   margin-left: 2rem;
 }
-
+.main-head h1 {
+  font-weight: 500;
+}
 .three {
   margin-top: -3rem;
 }
@@ -289,6 +293,9 @@ font-style: normal;
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+.heading h3 {
+  font-weight: 500;
 }
 .scroll-buttons {
   display: flex;
@@ -346,8 +353,7 @@ font-style: normal;
   /* border: 2px solid linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
   /* border:2px solid linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 27%, rgba(0,212,255,1) 88%); */
 }
-.car-card 
-.img-container {
+.car-card .img-container {
   width: 100%;
   height: rem;
   background: url(../images/card-img.png);
@@ -356,14 +362,14 @@ font-style: normal;
   background-repeat: no-repeat;
   transition: all 1s;
 }
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
@@ -442,8 +448,12 @@ font-style: normal;
 
 .time {
   color: #fff;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin-top: 0.7rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
 }
 .bottom {
   display: flex;
@@ -457,10 +467,16 @@ font-style: normal;
   color: #fff;
   font-size: 1.5rem;
 }
+.eve-name b {
+  font-weight: 500;
+}
 .eve-type {
   color: #b2b2b2;
   font-size: 1.3rem;
-  margin-top:7px;
+  margin-top: 7px;
+}
+.eve-type b {
+  font-weight: 400;
 }
 .bid-btn {
   padding: 0;

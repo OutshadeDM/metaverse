@@ -123,7 +123,7 @@ margin-left: 132px;
  
 }
 #form-div label {
-  margin: 1rem 0;
+  
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -132,7 +132,7 @@ margin-left: 132px;
 #form-div input,
 #form-div textarea,
 #form-div select {
-  padding: 1.5rem;
+  padding: 0rem 1.5rem;
   width: 50%;
   border-radius: 10px;
   border: none;
@@ -141,6 +141,7 @@ margin-left: 132px;
   font-weight: bold;
   outline: none;
   background-color: rgba(58, 47, 73, 0.72);
+  margin-bottom: 2rem;
 }
 #form-div input {
   width: 362px;
@@ -150,6 +151,7 @@ margin-left: 132px;
   resize: none;
   width: 600px;
   height: 152px;
+  padding-top: 1rem;
 }
 #form-div select {
   width: 362px;
