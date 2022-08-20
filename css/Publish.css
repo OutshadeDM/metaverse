@@ -49,6 +49,7 @@
 } */
 .inner {
   width: 75%;
+  height: 616px;
   background: url(../images/item-publish-1.png);
   height: 30rem;
   background-repeat: no-repeat;
@@ -75,7 +76,7 @@
   object-fit: contain;
 }
 .bottom {
-  width: 90%;
+  width: 100%;
   border-radius: 20px;
   background: rgba(128, 116, 12, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);

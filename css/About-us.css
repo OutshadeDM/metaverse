@@ -27,12 +27,22 @@ section {
   padding-top: 2rem;
 }
 .bottom h1 {
-  font-size: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
 }
 .bottom p {
   width: 75%;
   margin: 0;
   font-size: 1.5rem;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
   text-align: center;
 }
 .two {
@@ -85,21 +95,47 @@ section {
   border-radius: 100rem;
   padding: 7px;
   border: 2px solid #ad23ca;
+  width: 220px;
+  height: 220px;
 }
 .image img {
   width: 100%;
   border-radius: 100rem;
+  width: 220px;
+  height: 220px;
 }
 .details h1 {
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
 }
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .details h2 {
   font-size: 1.3rem;
   text-align: center;
   margin-top: 0;
   font-weight: 200;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 .two-bottom {
   width: 90%;
