@@ -14,7 +14,7 @@
         <div class="container">
             <h1>Login</h1>
             <p>Doesn't have account <a href="./signup-1.html">sign up</a></p>
-            <form action="" class="form-signup">
+            <div action="" class="form-signup">
                 <label for="email"><b>Email</b></label>
                 <div class="input">
                     <input type="text" placeholder="Enter email">
@@ -33,9 +33,12 @@
                 </div>
 
                 <div class="signup-btn">
-                    <button>
+                    <button id="log-in-to-home">
                         <b>NEXT</b>
                     </button>
+                </div>
+                <div class="forgot-pass">
+                    Forgot password? <span id="to-forgot-pass" class="click-here">Click Here</span>
                 </div>
 
                 <div class="login-separator">
@@ -45,7 +48,7 @@
                     </div>
                     <div class="hr"></div>
                 </div>
-            </form>
+            </div>
             <div class="login-opts">
                 <button><img src="../images/google-signup.png" alt=""></button>
                 <button><img src="../images/facebook-signup.png" alt=""></button>
@@ -57,6 +60,15 @@
     </section>
 
     <script src="../js/login-1.js"></script>
+
+    <script>
+        const changeLocation = document.getElementById('log-in-to-home').addEventListener('click', () => {
+            window.location = "/home.html";
+        })
+        const changeLocation2 = document.getElementById('to-forgot-pass').addEventListener('click', () => {
+            window.location = "/login-2.html";
+        })
+    </script>
 </body>
 
 </html>

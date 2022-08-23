@@ -13,7 +13,7 @@
     <section class="main">
         <div class="container">
             <h1>Forgot password</h1>
-            <form action="" class="form-username">
+            <div action="" class="form-username">
                 <label for="username"><b>Email</b></label>
                 <div class="input">
                     <input type="text">
@@ -24,18 +24,23 @@
                 </div>
 
                 <div class="signup-btn">
-                    <button>
+                    <button id="to-reset-pass">
                         <b>NEXT</b>
                     </button>
                 </div>
                 <p>Link sent to email</p>
-            </form>
+            </div>
 
 
         </div>
 
     </section>
     <script src="../js/login-2.js"></script>
+    <script>
+        const changeLocation4 = document.getElementById('to-reset-pass').addEventListener('click', () => {
+            window.location = "/login-3.html";
+        })
+    </script>
 </body>
 
 </html>

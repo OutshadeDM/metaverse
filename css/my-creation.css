@@ -4,28 +4,34 @@
 
   width: 100%;
 }
+
 .sub-nav {
   display: flex;
   justify-content: center;
   width: 90%;
 }
+
 .subnav-elem {
   margin: 2rem;
 }
+
 .sub-nav a {
   color: #8a8a8a;
   font-size: 1.5rem;
 }
+
 .active-elem a {
   color: #e989ff;
   font-weight: 900;
 }
+
 .two {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .container {
   width: 90%;
   display: flex;
@@ -36,6 +42,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .top-cont {
   display: flex;
   width: 40%;
@@ -43,6 +50,7 @@
   margin-bottom: 5rem;
   align-items: center;
 }
+
 .search-div {
   width: 70%;
   display: flex;
@@ -50,6 +58,7 @@
   margin-right: 15px;
   height: 51px;
 }
+
 .search-div input {
   width: 446px;
   background-color: #141426;
@@ -61,10 +70,12 @@
   border: none;
   outline: none;
 }
+
 .search-div input:active {
   border: none;
   outline: none;
 }
+
 .search-icon {
   background-color: #141426;
   width: 3rem;
@@ -72,9 +83,11 @@
   font-size: 1.5rem;
   padding: 1.3rem 1rem;
 }
+
 .search-icon i {
   color: #666666;
 }
+
 #create-btn {
   border: none;
   border-radius: 30px;
@@ -86,12 +99,14 @@
   width: 140px;
   height: 51px;
 }
+
 .bottom-cont {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .cards-cont {
   width: 80%;
   display: grid;
@@ -105,18 +120,22 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .card-top-left {
   display: flex;
   width: 45%;
   justify-content: space-between;
 }
+
 .prof-id {
   color: #74747a;
 }
+
 .dots button {
   background: transparent;
   border: none;
 }
+
 .dropdown-content-2 {
   display: none;
   position: absolute;
@@ -139,56 +158,69 @@
   text-decoration: none;
   display: block;
 }
+
 .info h1,
 .info h3 {
   margin: 0;
 }
+
 .mid-1 {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .mid-1 img {
   width: 95%;
   height: 100%;
   border-radius: 10px;
 }
+
 .mid-2 {
   display: flex;
   justify-content: space-between;
   margin: 1rem 1rem 2rem 1rem;
 }
+
 .rating {
   display: flex;
 }
+
 .rating img {
   width: 1.6rem;
 }
+
 .timer {
   margin-top: 0.7rem;
 }
+
 .timer-text {
   color: #b2b2b2;
   font-size: 1.1rem;
 }
+
 .time {
   font-size: 1.2rem;
   text-align: center;
   /* margin-top: 0.7rem; */
 }
+
 .bottom {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
 }
+
 .bid-text {
   color: #b2b2b2;
   font-size: 1.1rem;
 }
+
 .bid-value {
   color: #fff;
   font-size: 1.2rem;
 }
+
 .bid-btn {
   padding: 0;
   width: 10rem;
@@ -198,22 +230,26 @@
   color: white;
   font-family: "Poppins", sans-serif;
 }
+
 #cards-2 {
   display: none;
   margin-top: 30px;
 }
+
 #toggle-btn {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
+
 #more-btn {
   width: 7%;
   text-align: center;
   background: transparent;
   border: none;
 }
+
 #less-btn {
   display: none;
   width: 7%;
@@ -221,14 +257,17 @@
   background: transparent;
   border: none;
 }
+
 .bottom-cont {
   margin-bottom: 80px;
 }
+
 .card-flex {
   display: flex;
   justify-content: center;
   width: 90%;
 }
+
 .card {
   display: flex;
   width: 310px;
@@ -241,18 +280,22 @@
   border: 1px solid #db00ff;
   padding: 1rem;
 }
+
 .card img {
   width: 311px;
   height: 228px;
   /* object-fit: contain; */
 }
+
 .summary {
   margin: 0;
 }
+
 .card a {
-  color: #f6aaff;
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
 }
+
 .card h1 {
   width: 90%;
   font-size: 1.5rem;
@@ -265,6 +308,7 @@
   font-size: 16px;
   line-height: 24px;
 }
+
 .card p {
   width: 90%;
   font-size: 1.2rem;
@@ -273,7 +317,9 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  color: #FFFFFF99;
 }
+
 .bottom-card {
   width: 90%;
   margin-top: 2rem;
@@ -281,16 +327,19 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .released-on {
   display: flex;
   justify-content: space-around;
   color: #8b8b90;
   font-weight: 900;
 }
+
 .date,
 .time {
   font-size: 1.1rem;
 }
+
 .view-btn {
   width: 8rem;
   background: transparent;
@@ -306,44 +355,54 @@
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 1205px) {
   .top-cont {
     width: 60%;
   }
+
   .card-top-left {
     width: 60%;
   }
 }
+
 @media only screen and (max-width: 880px) {
   .top-cont {
     width: 80%;
   }
+
   .cards-cont {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .card-top-left {
     width: 45%;
   }
 }
+
 @media only screen and (max-width: 800px) {
   .subnav-elem {
     text-align: center;
   }
 }
+
 @media only screen and (max-width: 760px) {
   .card-top-left {
     width: 60%;
   }
 }
+
 @media only screen and (max-width: 675px) {
   .top-cont {
     width: 100%;
   }
+
   .sub-nav {
     overflow-x: scroll;
     width: 100%;
     justify-content: flex-start;
   }
+
   .subnav-elem {
     width: 6rem;
     text-align: center;
@@ -355,12 +414,15 @@
   .card-top-left {
     width: 45%;
   }
+
   .cards-cont {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .search-div {
     width: 50%;
   }
+
   .create-item {
     width: 50%;
     text-align: right;
@@ -371,9 +433,11 @@
   .top-cont {
     flex-direction: column;
   }
+
   .search-div {
     width: 100%;
   }
+
   .create-item {
     text-align: center;
     margin-top: 2rem;

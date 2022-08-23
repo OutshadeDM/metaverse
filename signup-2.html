@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signup-2.css">
+    <!-- <link rel="stylesheet" href="signup-2.css"> -->
+    <link rel="stylesheet" href="./css/signup-2.css">
     <title>OTP verification</title>
 </head>
 
@@ -17,7 +18,7 @@
                 OTP sent to <b class="email">*****ar@gmail.com</b>
             </div>
             <p>6 digit code</p>
-            <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+            <div method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
                 <div class="inputs">
                     <input type="text" id="num1" maxlength="1" name="num1" data-next="num2" />
                     <input type="text" id="num2" maxlength="1" name="num2" data-next="num3" data-previous="num1" />
@@ -27,11 +28,11 @@
                     <input type="text" id="num6" maxlength="1" name="num6" data-previous="num5" />
                 </div>
                 <div class="signup-btn">
-                    <button>
+                    <button id="otp-next">
                         <b>NEXT</b>
                     </button>
                 </div>
-            </form>
+            </div>
             <div class="resend">
                 Didnt recieved OTP?<button>Resend</button>
             </div>
@@ -41,6 +42,11 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="signup-2.js"></script>
+    <script>
+        const changeLocation = document.getElementById('otp-next').addEventListener('click', () => {
+            window.location = "/signup-username.html";
+        })
+    </script>
 </body>
 
 </html>

@@ -1,18 +1,28 @@
 .foot-container {
-  margin-top: 0;
+  /* margin-top: 0; */
+  margin-top: 8rem;
 }
+
 .back-btn {
   margin-left: 4rem;
   position: fixed;
   top: 100px;
 }
-.selected-text-2{
+
+.selected-text-2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 0px 35px;
   width: 50%;
 }
+
+.selected-para,
+.starting-price,
+.selected-image p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .back-btn button {
   color: white;
   font-size: 1.8rem;
@@ -20,15 +30,18 @@
   font-family: "Poppins", "sans-serif";
   background-color: transparent;
 }
+
 .one {
   display: flex;
   margin-top: 7rem;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .poster-2 {
   display: none;
 }
+
 .poster-2 img {
   width: 100%;
 }
@@ -37,25 +50,31 @@
   font-size: 3rem;
   margin-bottom: 0;
 }
+
 .event-container {
   width: 100%;
   display: flex;
   justify-content: space-around;
   /* margin-left: 5rem; */
 }
+
 .poster {
   width: 30%;
 }
+
 .poster img {
   border-radius: 20px;
   width: 100%;
 }
+
 .booking-form {
   width: 60%;
 }
+
 .form-headings {
   font-size: 2.7rem;
 }
+
 .dates {
   display: flex;
   width: 70%;
@@ -63,6 +82,7 @@
   justify-content: space-between;
   padding: 2rem 0;
 }
+
 .seats {
   display: flex;
   width: 40%;
@@ -70,9 +90,11 @@
   justify-content: space-between;
   padding: 2rem 0;
 }
+
 label.radio {
   cursor: pointer;
 }
+
 label.radio input {
   position: absolute;
   top: 0;
@@ -80,6 +102,7 @@ label.radio input {
   visibility: hidden;
   pointer-events: none;
 }
+
 label.radio span {
   padding: 7px 7px;
   display: inline-block;
@@ -92,14 +115,17 @@ label.radio span {
   width: 9rem;
   margin: 0 1rem;
 }
-.text-details h1{
+
+.text-details h1 {
   font-size: 32px;
   font-weight: 700;
 }
-.text-details p{
-  font-size:18px;
+
+.text-details p {
+  font-size: 18px;
   width: 574px;
 }
+
 .heading {
   width: 50%;
   display: flex;
@@ -108,22 +134,24 @@ label.radio span {
   font-weight: 500;
   /* justify-content: flex-start; */
 }
-.reveal{
+
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
+
 .seats label.radio span {
   width: 15rem;
 }
 
-label.radio input:checked + span {
+label.radio input:checked+span {
   background-color: #94769e;
   box-shadow: 0px 0px 0px #a03af0;
 }
@@ -148,59 +176,74 @@ label.radio input:checked + span {
     margin-left: 3rem;
   }
 }
+
 @media only screen and (max-width: 1040px) {
   .dates {
     margin: 0;
     width: 100%;
   }
+
   .seats {
     margin: 0;
     width: 50%;
   }
+
   .form-headings {
     font-size: 2rem;
   }
+
   label.radio span {
     font-size: 1.3rem;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .back-btn {
     margin-left: 0;
   }
+
   .poster-2 {
     display: flex;
     justify-content: center;
     width: 100%;
   }
+
   .event-container {
     flex-direction: column;
   }
+
   .heading {
     width: 80%;
   }
+
   .poster {
     display: none;
   }
+
   .booking-form {
     width: 100%;
     margin-left: 0;
   }
+
   .heading {
     margin-left: 0;
     width: 100%;
   }
+
   .seats {
     width: 100%;
   }
+
   .dates,
   .seats {
     overflow-x: scroll;
   }
+
   .dates::-webkit-scrollbar,
   .seats::-webkit-scrollbar {
     display: none;
   }
+
   .book-btn {
     margin-bottom: 10rem;
   }

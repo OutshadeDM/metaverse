@@ -5,6 +5,7 @@
   width: 100%;
   margin-bottom: 80px;
 }
+
 .banner {
   display: flex;
   justify-content: center;
@@ -22,6 +23,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .blog-text h1 {
   text-align: center;
   width: 100%;
@@ -31,19 +33,23 @@
   font-family: "Poppins";
   line-height: 36px;
 }
+
 .blog-text p {
   text-align: center;
   width: 60%;
   font-size: 18px;
 }
+
 .two {
   margin-bottom: 80px;
 }
+
 .search-div {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .search-div input {
   width: 472px;
   height: 50px;
@@ -57,10 +63,12 @@
   border: none;
   outline: none;
 }
+
 .search-divinput:active {
   border: none;
   outline: none;
 }
+
 .search-icon {
   background-color: #141426;
   width: 3rem;
@@ -68,6 +76,7 @@
   font-size: 1.5rem;
   padding-top: 1.4rem;
 }
+
 .search-icon i {
   color: #666666;
 }
@@ -78,23 +87,27 @@
   width: 100%;
   margin-top: 3rem;
 }
+
 .faq-card {
   display: flex;
   justify-content: center;
   width: 25%;
   margin-top: 3rem;
 }
+
 .outer {
   border-top: 2px solid #2c1245;
   border-radius: 20px;
   width: 350px;
 }
+
 .mid {
   border-radius: 20px;
   margin-top: 7px;
   border-top: 2px solid #491b6a;
-  width: 350px;
+  width: 349px;
 }
+
 .inner {
   border-radius: 20px;
   margin-top: 7px;
@@ -103,12 +116,14 @@
   border: 2px solid #8420b4;
   height: 600px;
   background-color: rgb(23, 23, 33);
-  width: 350px;
+  width: 335px;
 }
+
 .head {
   width: 100%;
   align-items: center;
 }
+
 .head h1 {
   /* width: 30%; */
   margin: 0 auto;
@@ -117,16 +132,16 @@
   width: fit-content;
   margin-top: 20px;
 }
+
 .underline-head hr {
   display: block;
   border: none;
   height: 1.5px;
   width: 100%;
-  background-image: linear-gradient(
-    to left,
-    /* #00e6f4 5%, */ rgba(169, 97, 212, 1),
-    rgba(115, 37, 163, 0.97)
-  );
+  background-image: linear-gradient(to left,
+      /* #00e6f4 5%, */
+      rgba(169, 97, 212, 1),
+      rgba(115, 37, 163, 0.97));
   margin: 0 auto 0 auto;
   border-radius: 10px;
 }
@@ -134,26 +149,28 @@
 .underline-head .shadow-head {
   opacity: 0.5;
   height: 15px;
-  background: linear-gradient(
-    to bottom,
-    rgba(117, 53, 148, 0.06),
-    rgba(118, 62, 189, 1)
-  );
+  background: linear-gradient(to bottom,
+      rgba(117, 53, 148, 0.06),
+      rgba(118, 62, 189, 1));
   width: 100%;
 }
+
 .card-image {
   width: 100%;
   text-align: center;
   margin: 3rem 0;
 }
+
 .card-image img {
   width: 119.7px;
   height: 119.7px;
 }
+
 .list {
   font-size: 1.5rem;
   margin-top: 40px;
 }
+
 .list ul li {
   display: list-item;
   list-style: disc;
@@ -164,10 +181,13 @@
   line-height: 27px;
   padding: 5px 0px;
 }
+
 .explore {
   margin: 2rem auto;
-  width: 80%;
+  width: 87%;
+  /* width: 80%; */
 }
+
 .explore-btn {
   padding: 0.5rem 2rem;
   border-radius: 15px;
@@ -181,26 +201,31 @@
   height: 35px;
   border-radius: 54px;
 }
+
 .count {
   width: 90%;
   margin: 2rem auto;
   font-size: 2rem;
 }
+
 .count-value {
   width: 100%;
   text-align: right;
   font-weight: 700;
   margin-top: 70px;
 }
+
 @media only screen and (max-width: 690px) {
   .faq-cards-container {
     flex-direction: column;
     align-items: center;
   }
+
   .faq-card {
     width: 60%;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .faq-card {
     width: 80%;

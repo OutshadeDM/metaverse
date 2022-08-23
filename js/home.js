@@ -37,6 +37,8 @@ $(document).ready(function () {
     centerPadding: "0",
     slidesToShow: 5,
     infinite: true,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/arrow-left.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='../images/arrow-right.png'>",
     responsive: [
       {
         breakpoint: 1024,
@@ -72,7 +74,9 @@ $(document).ready(function () {
 $(".car-button").on("click", function () {
   alert("book now button clicked");
 });
-
+$(".release-plans").click(function () {
+  window.location = "/signup-1.html";
+});
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {

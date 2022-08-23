@@ -8,6 +8,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 .main {
   display: flex;
   width: 100%;
@@ -15,6 +16,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -25,29 +27,36 @@ body {
   background-size: 100% 100%;
   color: white;
 }
+
 .container h1 {
   margin: 0;
 }
+
 .container p {
   font-size: 0.8rem;
   margin-bottom: 2rem;
 }
+
 .container p a {
   color: white;
   font-weight: 900;
 }
+
 .form-signup {
   display: flex;
   flex-direction: column;
 }
+
 .image {
   width: 50%;
 }
+
 .input {
   width: 100%;
   display: flex;
   margin: 1rem 0 1rem 0;
 }
+
 .input input {
   width: 100%;
   border: none;
@@ -57,6 +66,7 @@ body {
   background-color: #3a2f49;
   padding: 10px;
 }
+
 .input input:active {
   border: none;
   outline: none;
@@ -73,6 +83,7 @@ body {
   align-items: center;
   box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.15);
 }
+
 .input-icon {
   margin-left: 1.7rem;
   background-color: #b534c9bb;
@@ -85,6 +96,7 @@ body {
   align-items: center;
   height: 2rem;
 }
+
 .input-icon img {
   z-index: 2;
 }
@@ -93,15 +105,14 @@ body {
   width: 100%;
   margin: 1rem 0;
 }
+
 .signup-btn button {
   width: 100%;
   padding: 1rem;
   color: white;
-  background: linear-gradient(
-    to right,
-    rgba(180, 52, 201, 1),
-    rgba(56, 50, 205, 1)
-  );
+  background: linear-gradient(to right,
+      rgba(180, 52, 201, 1),
+      rgba(56, 50, 205, 1));
   border-radius: 40px;
   font-size: 1.3rem;
   font-family: "Poppins", "sans-serif";
@@ -109,26 +120,31 @@ body {
   box-shadow: 0 0px 20px 1px #9a33c9;
   border: none;
 }
+
 .login-separator {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 .login {
   width: 30%;
   text-align: center;
 }
+
 .hr {
   width: 30%;
   border-top: 2px solid rgba(58, 47, 73, 1);
 }
+
 .login-opts {
   width: 100%;
   display: flex;
   margin-top: 1rem;
   justify-content: space-between;
 }
+
 .login-opts button {
   width: 10rem;
   cursor: pointer;
@@ -139,12 +155,28 @@ body {
   box-shadow: 0 3px 10px rgba(152, 21, 198, 0.6);
   margin: 10px;
 }
+
 .login-opts button img {
   width: 70%;
 }
+
+.forgot-pass {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.click-here {
+  text-decoration: underline;
+}
+
+.click-here:hover {
+  cursor: pointer;
+}
+
 .image {
   width: 30%;
 }
+
 .image img {
   width: 100%;
 }
@@ -154,19 +186,23 @@ body {
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .image {
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .image {
     display: none;
   }
+
   .container {
     width: 85%;
     padding: 3rem 2rem;
   }
+
   .input-img {
     width: 5rem;
   }
