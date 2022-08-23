@@ -23,8 +23,8 @@
 
 .turn-image {
   position: absolute;
-  top: 399px;
-  left: 405px;
+  top: 10px;
+  right: -40px;
   /* top: 362px;
   left: 425px; */
   display: flex;
@@ -134,6 +134,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 25px;
 }
 
 .options-elem {
@@ -181,7 +182,7 @@
 
 .slick-slider .slick-prev {
   position: absolute;
-  left: -5px;
+  left: -13px;
 }
 
 .slick-prev:before,
@@ -194,9 +195,24 @@
   margin: 0 auto;
 }
 
+.slick-prev,
+.slick-next {
+  height: 37px !important;
+}
+
+.foot-elem p {
+  margin: 0 !important;
+  color: #D1E0FB;
+}
+
+.foot-logo {
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
 .slick-slider .slick-next {
   position: absolute;
-  right: -5px;
+  right: -20px;
 }
 
 .car-card {
@@ -339,6 +355,7 @@
 .selected-image {
   width: 50%;
   margin-left: 5rem;
+  position: relative;
   /* margin-left: 2rem; */
 }
 
@@ -352,7 +369,7 @@
   justify-content: space-between;
   padding: 0% 3%;
   width: 45%;
-  height: 440px;
+  height: 422px;
 }
 
 @media only screen and (min-width: 1400px) {

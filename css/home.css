@@ -17,7 +17,7 @@ html {
 }
 
 section {
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .reveal {
@@ -580,20 +580,20 @@ img {
 
 .avatar-text h1 {
   width: 70%;
-  font-size: 3.5rem;
+  font-size: 2.625rem;
   font-weight: 600;
   margin: 0;
 }
 
 .avatar-text p {
   width: 70%;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 200;
 }
 
 .gradient-button {
   width: 148px;
-  height: 61px;
+  height: 50px;
   padding: 1rem;
   border-radius: 30px;
   color: white;
@@ -633,7 +633,7 @@ img {
 
 .future-btn {
   display: block;
-  margin: auto;
+  margin: 15px auto;
   width: 242px;
   height: 50px;
   padding: 0.5rem;
@@ -673,19 +673,19 @@ img {
 }
 
 .explore-text {
-  margin-top: 20rem;
+  margin-top: 14rem;
 }
 
 .explore-text p {
   margin-left: 10rem;
   width: 45%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .explore-text h1 {
   margin-left: 10rem;
-  font-size: 4rem;
+  font-size: 2.7rem;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -794,12 +794,17 @@ img {
 
 .civil-text h1 {
   font-weight: 400;
+  font-size: 3.5rem;
 }
 
 .civil-text h1,
 .civil-text p {
   margin-top: 0;
   width: 70%;
+}
+
+.civil-text p {
+  font-size: 2rem;
 }
 
 .civil-image {
@@ -833,14 +838,15 @@ img {
 }
 
 .store-head h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   font-weight: 600;
 }
 
 .store-head p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 0;
+  color: #D1E0FB;
 }
 
 .store-grid-wrapper {
@@ -887,6 +893,11 @@ img {
   font-weight: 400;
 }
 
+.store-text p {
+  font-size: 1.5rem;
+  color: #D1E0FB;
+}
+
 .store-text {
   width: 60%;
   font-size: 2rem;
@@ -921,6 +932,7 @@ img {
   background: url(../images/contact-us.png);
   background-size: 100% 100%;
   padding-top: 4rem;
+  margin-top: 40px;
 }
 
 .survey-purple-background h1 {
@@ -946,7 +958,7 @@ img {
 .form-elem {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 87%;
   height: 122px;
 }
 
@@ -1024,6 +1036,7 @@ img {
 
 .form-btn button {
   width: 400px;
+  font-size: 18px;
 }
 
 .nine {
@@ -1090,6 +1103,7 @@ img {
 
 .footer-p {
   width: 277px;
+  color: #D1E0FB;
 }
 
 .avatar-img img {
@@ -1116,6 +1130,11 @@ img {
   font-size: 18px;
   font-weight: 500px;
   /* box-shadow: -5px 5px 10px rgb(52, 38, 58); */
+}
+
+.slick-prev,
+.slick-next {
+  height: 37px !important;
 }
 
 .foot-container {

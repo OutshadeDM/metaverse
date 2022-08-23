@@ -89,6 +89,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 25px;
 }
 
 .options-elem {
@@ -149,12 +150,13 @@ li.active .underline hr {
 
 .slick-slider .slick-prev {
   position: absolute;
-  left: -5px;
+  left: -13px;
+  /* left: -5px; */
 }
 
 .slick-slider .slick-next {
   position: absolute;
-  right: -24px;
+  right: -20px;
 }
 
 .slick-slider {
@@ -221,13 +223,24 @@ li.active .underline hr {
   height: 1.5rem;
 }
 
+.foot-logo {
+  /* color: #111; */
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
+.foot-elem p {
+  color: #D1E0FB;
+  margin: 0 !important;
+}
+
 .view-count {
   margin-left: 1rem;
   font-size: 1.2rem;
 }
 
 .timer {
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
 }
 
 
@@ -244,6 +257,11 @@ li.active .underline hr {
   margin-top: -4px;
 }
 
+.slick-prev,
+.slick-next {
+  height: 37px !important;
+}
+
 .name {
   font-size: 10px;
 }
@@ -256,7 +274,7 @@ li.active .underline hr {
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 11px;
+  margin-top: 9px;
 }
 
 .bottom {

@@ -13,14 +13,14 @@
   justify-content: space-around;
   /* align-items: center; */
   align-items: flex-start;
-  margin-top: 10rem;
+  margin-top: 14rem;
   width: 100%;
   font-size: 1.5rem;
   /* margin-top: -15rem; */
 }
 
 .foot-link-container li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   /* padding: 0 0; */
 }
 
@@ -45,12 +45,12 @@
 
 .contact-us-heading {
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .foot-elem-child h3 {
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .foot-elem-child a {
@@ -60,7 +60,7 @@
 }
 
 .foot-elem a {
-  color: white;
+  color: #D1E0FB;
   font-weight: 200;
 }
 

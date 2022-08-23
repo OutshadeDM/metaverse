@@ -296,6 +296,15 @@
   text-decoration: underline;
 }
 
+.foot-elem p {
+  color: #D1E0FB;
+}
+
+.foot-logo {
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
 .card h1 {
   width: 90%;
   font-size: 1.5rem;

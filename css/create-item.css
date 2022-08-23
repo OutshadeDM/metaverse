@@ -11,13 +11,14 @@
   font-weight: 600;
   font-size: 24px;
   /* line-height: 36px; */
-  margin-left: 132px;
+  /* margin-left: 132px; */
 }
 
 .two {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* justify-content: space-between; */
 }
 
 .left {
@@ -42,15 +43,15 @@
   height: 409px;
   border: 1.41803px dashed rgba(252, 248, 255, 0.45);
   border-radius: 9.21721px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   opacity: 0.6;
   margin-top: 1rem;
   margin-right: 1rem;
 }
 
 .info {
-  margin-left: 263px;
-  width: 432px;
+  /* margin-left: 263px; */
+  /* width: 432px; */
 }
 
 .event-template {
