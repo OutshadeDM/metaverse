@@ -32,7 +32,7 @@ a {
 .navbar {
   background-color: #0c0517;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 1.5rem;
   height: 70px;
@@ -76,7 +76,6 @@ a {
   display: none;
 }
 
-
 /* li.active .nav-link {
   background: -webkit-linear-gradient(#eee, #00c8df);
   background-clip: text;
@@ -110,23 +109,24 @@ a {
 
 li.active .underline hr {
   width: 100%;
-  background-image: linear-gradient(to left,
-      /* #00e6f4 5%, */
-      #009ea8 20%,
-      #1687d9 70%);
+  background-image: linear-gradient(
+    to left,
+    /* #00e6f4 5%, */ #009ea8 20%,
+    #1687d9 70%
+  );
   font-size: bolder;
-
 }
 
 .underline .shadow {
   opacity: 0;
   height: 15px;
-  background: linear-gradient(to bottom,
-      rgba(189, 116, 223, 0.06),
-      rgba(7, 149, 169, 1));
+  background: linear-gradient(
+    to bottom,
+    rgba(189, 116, 223, 0.06),
+    rgba(7, 149, 169, 1)
+  );
   width: 0%;
   font-size: bolder;
-
 }
 
 li.active .underline .shadow {
@@ -134,7 +134,6 @@ li.active .underline .shadow {
   width: 100%;
   transition: width 0.2s, opacity 0.5s;
   font-size: bolder;
-
 }
 
 li.active .nav-link {
@@ -144,8 +143,6 @@ li.active .nav-link {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900 !important;
-
-
 }
 
 li:hover {
@@ -155,14 +152,16 @@ li:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900 !important;
-
 }
 
 .nav-logo {
   font-size: 1.8rem;
-  font-weight: 550;
-  color: #482ff7;
   margin-left: 0%;
+}
+.nav-logo img {
+  width: 99px;
+  height: 66px;
+  padding-left: 20px;
 }
 
 .nav-logo2 {
@@ -338,14 +337,17 @@ li:hover {
     color: #482ff7;
     margin-top: -0.5rem;
   }
-
+  .nav-logo2 img {
+    width: 65px;
+    height: 50px;
+    padding-left: 20px;
+  }
   .dropdown-content {
     top: 9rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
-
   .profile-name,
   #dots-image {
     display: none;

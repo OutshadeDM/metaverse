@@ -14,7 +14,7 @@
   /* align-items: center; */
   align-items: flex-start;
   margin-top: 14rem;
-  width: 100%;
+  width: 97%;
   font-size: 1.5rem;
   /* margin-top: -15rem; */
 }
@@ -61,7 +61,7 @@
 
 .foot-elem a {
   color: #D1E0FB;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 768px) {
