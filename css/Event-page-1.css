@@ -552,7 +552,7 @@ px
 }
 
 .time {
-  color: #fff;
+  color: #8B8B90;
   /* font-size: 1.5rem; */
   margin-top: 0.7rem;
   font-family: "Poppins";
@@ -577,7 +577,7 @@ px
 
 .eve-name b {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .eve-type {
@@ -588,7 +588,7 @@ px
 
 .eve-type b {
   font-weight: 400;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .bid-btn {
