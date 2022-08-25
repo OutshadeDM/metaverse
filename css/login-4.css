@@ -20,22 +20,28 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5rem 4rem;
   width: 40%;
   margin-top: 3rem;
   background-image: url(../images/signup-back.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: white;
+  width: 695px;
+  height: 461px;
 }
 .container h1 {
   margin: 0 0 3rem 0;
   text-align: center;
   font-size: 2rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
 }
 .outer-circle {
-  width: 10rem;
-  height: 10rem;
+  width: 162px;
+  height: 162px;
   border-radius: 10rem;
   background-color: #483168;
   display: flex;
@@ -43,8 +49,8 @@ body {
   justify-content: center;
 }
 .inner-circle {
-  width: 7rem;
-  height: 7rem;
+  width: 121.5px;
+  height: 121.5px;
   border-radius: 10rem;
   background: linear-gradient(to bottom right, #b434c9, #32cd95);
   display: flex;
