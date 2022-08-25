@@ -1,31 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
 body {
   font-family: "Poppins", "sans-serif";
 }
+
 .one {
   display: flex;
   justify-content: center;
 
   width: 100%;
 }
+
+.foot-elem p {
+  color: #D1E0FB;
+}
+
 .sub-nav {
   display: flex;
   justify-content: center;
   width: 90%;
 }
+
+.foot-logo {
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
 .subnav-elem {
   margin: 2rem;
 }
+
 .sub-nav a {
   color: #8a8a8a;
   font-size: 1.5rem;
 }
+
 .active-elem a {
   color: #e989ff;
   font-weight: 900;
 }
-.form-heading{
-  font-weight:900 !important;
+
+.form-heading {
+  font-weight: 900 !important;
 }
 
 .two {
@@ -39,6 +55,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -53,6 +70,7 @@ body {
   background-position: center;
   margin-bottom: 30px;
 }
+
 .top-back {
   display: flex;
   width: 100%;
@@ -60,6 +78,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+
 .container-1 {
   width: 25%;
   height: 95%;
@@ -69,17 +88,20 @@ body {
   align-items: center;
   padding: 2rem 0;
 }
+
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .profile-image {
   width: 50%;
   border-radius: 50%;
   border: 1px solid #a032d4;
   padding: 0.5rem;
 }
+
 .profile-image img {
   width: 95%;
   border-radius: 80rem;
@@ -92,31 +114,37 @@ body {
   font-weight: 900;
   margin: 2rem 0 1rem 0;
 }
+
 .email {
   font-size: 1.3rem;
   margin: 1rem 0 2rem 0;
 }
+
 .name,
 .email {
   text-align: center;
 }
+
 #form-profile {
   width: 100%;
   font-size: 1.7rem;
   font-weight: bold;
 }
+
 .form-input {
   width: 100%;
   display: flex;
   margin: 2rem 0;
   justify-content: space-between;
 }
+
 .submit-div {
   width: 70%;
   margin: 0 auto;
   justify-content: flex-end;
   margin-bottom: 80px;
 }
+
 .form-input input {
   background: transparent;
   color: #fff;
@@ -126,6 +154,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
 }
+
 .form-input input::-webkit-outer-spin-button,
 .form-input input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -136,23 +165,24 @@ body {
 .form-input input[type="number"] {
   -moz-appearance: textfield;
 }
+
 .form-input input:focus {
   background: transparent;
   border-bottom: 1px solid #a961d4;
   outline: none;
 }
+
 #submit {
-  background: linear-gradient(
-    to right,
-    rgba(178, 30, 202, 1),
-    rgba(96, 91, 208, 1)
-  );
+  background: linear-gradient(to right,
+      rgba(178, 30, 202, 1),
+      rgba(96, 91, 208, 1));
   padding: 7px 25px;
   border-radius: 20px;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+
 .container-2 {
   width: 55%;
   display: flex;
@@ -169,25 +199,31 @@ body {
   width: 70%;
   font-size: 1.5rem;
 }
+
 .details-table {
   width: 100%;
   border-spacing: 2rem;
 }
+
 .details-table th {
   text-align: left;
 }
+
 #submit {
   display: none;
 }
+
 .achievements {
   width: 75%;
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
 }
+
 .achievements h1 {
   font-size: 2rem;
 }
+
 .achievements hr {
   height: 2px;
   border-radius: 10px;
@@ -196,55 +232,66 @@ body {
   border: none;
   margin: 1rem 0;
 }
+
 .achievement {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: space-between;
 }
+
 .heading {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .heading h1 {
   font-size: 1.5rem;
   margin: 0;
 }
+
 .achievement-details p {
   font-size: 1.4rem;
   font-weight: normal;
 }
+
 .achievement-details a {
   color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 1060px) {
   .top-back {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .container-1 {
     width: 70%;
   }
+
   .container-2 {
     width: 70%;
     align-items: center;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .main {
     flex-direction: column;
     align-items: center;
     width: 95%;
   }
+
   .container-1 {
     flex-direction: row;
     width: 95%;
     justify-content: space-around;
   }
+
   /* .profile {
     width: 30%;
   } */
@@ -255,43 +302,53 @@ body {
   .email {
     font-size: 1.3rem;
   }
+
   .points {
     width: 55%;
     padding: 2%;
   }
+
   .points h3 {
     font-size: 1.5rem;
   }
+
   .points-table {
     font-size: 1.2rem;
   }
+
   .container-2 {
     width: 95%;
     margin: 3rem 0;
     padding: 0;
   }
+
   .edit-btn {
     margin: 1rem 1rem 0 0;
   }
+
   .full-details {
     width: 90%;
     font-size: 1.3rem;
   }
 }
+
 @media only screen and (max-width: 675px) {
   .sub-nav {
     overflow-x: scroll;
     width: 100%;
     justify-content: flex-start;
   }
+
   .subnav-elem {
     width: 6rem;
     text-align: center;
     height: 40%;
   }
+
   #form-profile {
     font-size: 1.4rem;
   }
+
   .form-input input {
     font-size: 1.4rem;
   }

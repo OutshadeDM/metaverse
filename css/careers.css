@@ -1,18 +1,21 @@
 section {
   margin-bottom: 40px;
 }
+
 .one {
   display: flex;
   width: 100%;
   justify-content: flex-start;
 }
-.job_title{
+
+.job_title {
   font-size: 2.8rem;
   font-weight: 900;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .banner {
   display: flex;
   justify-content: center;
@@ -23,30 +26,37 @@ section {
   background-size: cover;
   background-position: center;
 }
+
 #page-head {
   margin-left: 3rem;
   font-size: 3rem;
 }
+
 .two {
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
 .join-us {
   display: flex;
-  width: 100%;
+  width: 75%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .section-head {
   font-size: 2.8rem;
   margin-bottom: 0;
 }
+
 .join-us p {
   font-size: 1.7rem;
   text-align: center;
+  /* margin: 0 65px; */
 }
+
 .three {
   display: flex;
   width: 100%;
@@ -54,12 +64,14 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .card-wrap {
   width: 90%;
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 }
+
 .card {
   width: 20%;
   background-color: #171721;
@@ -74,6 +86,7 @@ section {
   -moz-box-shadow: 0px 10px 3px 0px #5a4966;
   box-shadow: 0px 3px 10px 0px #5a4966;
 }
+
 .card-head {
   width: 100%;
   text-align: center;
@@ -81,24 +94,46 @@ section {
   color: #fff;
   margin: 2rem 0;
 }
+
 .card img {
   margin: 1rem;
 }
+
 .card-content {
   text-align: center;
   width: 100%;
   font-size: 1.6rem;
 }
+
+.foot-elem p {
+  margin: 0 !important;
+  color: #D1E0FB;
+}
+
+.foot-logo {
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
+.slick-prev,
+.slick-next {
+  height: 37px !important;
+}
+
 .four {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
+  width: 97%;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .responsive {
   width: 95%;
 }
+
 .car-card {
   width: 30%;
   background-color: #171721;
@@ -116,6 +151,7 @@ section {
   -moz-box-shadow: 0px 10px 3px 0px #5a4966;
   box-shadow: 0px 3px 10px 0px #5a4966;
 }
+
 .job-title {
   width: 100%;
   text-align: center;
@@ -123,15 +159,18 @@ section {
   color: #fff;
   margin: 2rem 0;
 }
+
 .car-card img {
   margin: 0 auto;
 }
+
 .job-desc {
-  width: 70%;
+  /* width: 70%; */
   margin: 0 auto;
   text-align: center;
   font-size: 1.3rem;
 }
+
 .apply-btn {
   margin: 1rem 0;
   width: 60%;
@@ -148,4 +187,9 @@ section {
 
 .car-card img {
   margin: 3rem auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 32px !important;
 }

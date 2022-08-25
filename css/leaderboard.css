@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
 body {
   font-family: "Poppins", "sans-serif";
 }
@@ -8,38 +9,53 @@ body {
   justify-content: center;
   width: 100%;
 }
+
+.foot-elem p {
+  color: #D1E0FB;
+}
+
+.foot-logo {
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
 .sub-nav {
   display: flex;
   justify-content: center;
   width: 90%;
   overflow-x: scroll;
 }
+
 .sub-nav::-webkit-scrollbar {
   width: 10px;
 }
+
 .sub-nav::-webkit-scrollbar-track {
   display: none;
 }
+
 .sub-nav::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(
-    to right,
-    rgba(132, 29, 181, 1),
-    rgba(213, 131, 252, 0.58)
-  );
+  background: linear-gradient(to right,
+      rgba(132, 29, 181, 1),
+      rgba(213, 131, 252, 0.58));
 }
+
 .subnav-elem {
   margin: 2rem;
   text-align: center;
 }
+
 .sub-nav a {
   color: #8a8a8a;
   font-size: 1.5rem;
 }
+
 .active-elem a {
   color: #e989ff;
   font-weight: 400;
 }
+
 .two {
   width: 100%;
   display: flex;
@@ -50,6 +66,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 .container {
   width: 80%;
   display: flex;
@@ -68,11 +85,13 @@ body {
   border-collapse: separate;
   border-spacing: 0 5px;
 }
+
 .BI_tablehead {
   background-color: transparent;
   color: #fff;
 }
-.table-condensed > thead.BI_tablehead > tr > th {
+
+.table-condensed>thead.BI_tablehead>tr>th {
   padding: 20px 10px 20px 20px;
   font-weight: 400;
   vertical-align: middle;
@@ -81,16 +100,18 @@ body {
   font-weight: 400;
 }
 
-.table > tbody > tr {
+.table>tbody>tr {
   width: 1000px;
 }
-.table > tbody > tr > td,
-.table > tfoot > tr > td,
-.table > thead > tr > td {
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td,
+.table>thead>tr>td {
   border-top: none;
   margin: 5px;
 }
-.table-condensed > tbody.BI_tablebody > tr > td {
+
+.table-condensed>tbody.BI_tablebody>tr>td {
   padding: 15px 10px 15px 20px;
   text-transform: capitalize;
   font-weight: 400;
@@ -99,15 +120,18 @@ body {
   font-size: 14px;
   color: #fff;
 }
-.table-condensed > tbody.BI_tablebody > tr.user-rank > td {
+
+.table-condensed>tbody.BI_tablebody>tr.user-rank>td {
   border-top: 1px solid #be6dff;
   border-bottom: 1px solid #be6dff;
 }
-.table-condensed > tbody.BI_tablebody > tr.user-rank > td.start-td {
+
+.table-condensed>tbody.BI_tablebody>tr.user-rank>td.start-td {
   border-left: 1px solid #be6dff;
   border-radius: 10px 0 0 10px;
 }
-.table-condensed > tbody.BI_tablebody > tr.user-rank > td.end-td {
+
+.table-condensed>tbody.BI_tablebody>tr.user-rank>td.end-td {
   border-right: 1px solid #be6dff;
   border-radius: 0 10px 10px 0;
 }
@@ -117,6 +141,7 @@ td span {
   vertical-align: middle;
   display: inline-block;
 }
+
 .fixed_header {
   table-layout: fixed;
   border-collapse: collapse;
@@ -128,20 +153,22 @@ td span {
   overflow-y: scroll;
   max-height: 600px;
 }
+
 .fixed_header tbody::-webkit-scrollbar {
   width: 5px;
 }
+
 .fixed_header tbody::-webkit-scrollbar-track {
   display: none;
 }
+
 .fixed_header tbody::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(
-    to bottom,
-    rgba(132, 29, 181, 1),
-    rgba(213, 131, 252, 0.58)
-  );
+  background: linear-gradient(to bottom,
+      rgba(132, 29, 181, 1),
+      rgba(213, 131, 252, 0.58));
 }
+
 .fixed_header thead tr {
   display: block;
 }
@@ -151,17 +178,21 @@ td span {
   text-align: center;
   width: 200px;
 }
+
 .fixed_header th {
   padding: 5px;
   text-align: center;
   width: 200px;
 }
+
 .hidden-rank {
   display: none;
 }
-.user-rank > td {
+
+.user-rank>td {
   border-top: 1px solid #fff;
 }
+
 .more {
   width: 100%;
   text-align: center;
@@ -172,13 +203,16 @@ td span {
   color: #fff;
   background: transparent;
 }
+
 #more-btn {
   color: #fff;
   background: transparent;
 }
+
 .user-img {
   margin-right: 1rem;
 }
+
 @media only screen and (max-width: 720px) {
   .sub-nav {
     justify-content: flex-start;
@@ -192,18 +226,22 @@ td span {
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  .table-condensed > thead.BI_tablehead > tr > th {
+
+  .table-condensed>thead.BI_tablehead>tr>th {
     font-size: 1.3rem;
   }
 }
+
 @media only screen and (max-width: 600px) {
-  .table-condensed > thead.BI_tablehead > tr > th {
+  .table-condensed>thead.BI_tablehead>tr>th {
     padding: 0px;
   }
-  .table-condensed > tbody.BI_tablebody > tr > td {
+
+  .table-condensed>tbody.BI_tablebody>tr>td {
     padding: 10px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .container {
     width: 100%;

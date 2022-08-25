@@ -8,6 +8,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 .main {
   display: flex;
   width: 100%;
@@ -15,6 +16,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -25,21 +27,26 @@ body {
   background-size: 100% 100%;
   color: white;
 }
+
 .container h1 {
   margin: 0 0 2rem 0;
 }
+
 .form-signup {
   display: flex;
   flex-direction: column;
 }
+
 .image {
   width: 50%;
 }
+
 .input {
   width: 100%;
   display: flex;
   margin: 1rem 0 2rem 0;
 }
+
 .input input {
   width: 100%;
   border: none;
@@ -49,6 +56,7 @@ body {
   background-color: #3a2f49;
   padding: 10px;
 }
+
 .input input:active {
   border: none;
   outline: none;
@@ -65,6 +73,7 @@ body {
   align-items: center;
   box-shadow: -2px 1px 3px rgba(0, 0, 0, 0.15);
 }
+
 .input-icon {
   margin-left: 1.7rem;
   background-color: #b534c9bb;
@@ -77,23 +86,24 @@ body {
   align-items: center;
   height: 2rem;
 }
+
 .input-icon img {
   z-index: 2;
+  width: 24px;
 }
 
 .signup-btn {
   width: 100%;
   margin: 2rem 0;
 }
+
 .signup-btn button {
   width: 100%;
-  padding: 1rem;
+  padding: 0.6rem 1rem;
   color: white;
-  background: linear-gradient(
-    to right,
-    rgba(180, 52, 201, 1),
-    rgba(56, 50, 205, 1)
-  );
+  background: linear-gradient(to right,
+      rgba(180, 52, 201, 1),
+      rgba(56, 50, 205, 1));
   border-radius: 40px;
   font-size: 1.3rem;
   font-family: "Poppins", "sans-serif";
@@ -101,42 +111,52 @@ body {
   box-shadow: 0 0px 20px 1px #9a33c9;
   border: none;
 }
+
 .login-separator {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 .login {
   width: 30%;
   text-align: center;
 }
+
 .hr {
   width: 30%;
   border-top: 2px solid rgba(58, 47, 73, 1);
 }
+
 .login-opts {
   width: 100%;
   display: flex;
   margin-top: 3rem;
   justify-content: space-between;
 }
+
 .login-opts button {
   width: 10rem;
+  height: 50px;
   cursor: pointer;
-  background-color: #171721;
-  padding: 5px;
+  /* background-color: #171721; */
+  background-color: transparent;
+  padding: 8px;
   border-radius: 10px;
   border: 1px solid rgba(152, 21, 198, 0.6);
-  box-shadow: 0 3px 10px rgba(152, 21, 198, 0.6);
+  box-shadow: 0 0 2px rgba(152, 21, 198, 0.6);
   margin: 10px;
 }
+
 .login-opts button img {
-  width: 80%;
+  width: 70%;
 }
+
 .image {
   width: 30%;
 }
+
 .image img {
   width: 100%;
 }
@@ -146,19 +166,23 @@ body {
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .image {
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .image {
     display: none;
   }
+
   .container {
     width: 80%;
     padding: 3rem 1rem;
   }
+
   .input-img {
     width: 5rem;
   }

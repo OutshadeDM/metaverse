@@ -16,6 +16,22 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".mySwiper2", {
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
 
 function myFunction() {
   let dropdown = document.getElementById("myDropdown");
@@ -37,6 +53,8 @@ $(document).ready(function () {
     centerPadding: "0",
     slidesToShow: 5,
     infinite: true,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/arrow-left.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='../images/arrow-right.png'>",
     responsive: [
       {
         breakpoint: 1024,
@@ -72,7 +90,9 @@ $(document).ready(function () {
 $(".car-button").on("click", function () {
   alert("book now button clicked");
 });
-
+$(".release-plans").click(function () {
+  window.location = "/signup-1.html";
+});
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {

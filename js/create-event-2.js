@@ -5,6 +5,8 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 5,
     slidesToScroll: 1,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/arrow-left.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='../images/arrow-right.png'>",
     responsive: [
       {
         breakpoint: 1024,

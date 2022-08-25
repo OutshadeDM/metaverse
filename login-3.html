@@ -13,7 +13,7 @@
     <section class="main">
         <div class="container">
             <h1>Set Password</h1>
-            <form action="" class="form-username">
+            <div action="" class="form-username">
                 <label for="password"><b>Enter Password</b></label>
                 <div class="input">
                     <input type="password" for="password" id="one">
@@ -33,17 +33,22 @@
                 <input type="checkbox" for="show-password" id="checkbox" onclick="showPassword()">
                 <label for="show-password">Show pasword</label>
                 <div class="signup-btn">
-                    <button>
+                    <button id="login-to-home">
                         <b>NEXT</b>
                     </button>
                 </div>
-            </form>
+            </div>
 
         </div>
 
     </section>
 
     <script src="../js/login-3.js"></script>
+    <script>
+        const changeLocation5 = document.getElementById('login-to-home').addEventListener('click', () => {
+            window.location = "/home.html";
+        })
+    </script>
 </body>
 
 </html>

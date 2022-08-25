@@ -11,12 +11,15 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 50px;
 }
+
 .search-div {
   width: 50%;
   display: flex;
   justify-content: center;
 }
+
 .search-div input {
   width: 80%;
   background-color: #141426;
@@ -28,10 +31,12 @@
   border: none;
   outline: none;
 }
+
 .search-divinput:active {
   border: none;
   outline: none;
 }
+
 .search-icon {
   background-color: #141426;
   width: 3rem;
@@ -39,6 +44,7 @@
   font-size: 1.5rem;
   padding-top: 0.6rem;
 }
+
 .search-icon i {
   color: #666666;
 }
@@ -48,6 +54,7 @@
   justify-content: center;
   width: 100%;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -63,22 +70,26 @@
   background-size: cover;
   justify-content: center;
 }
+
 .flip {
   background: url(../images/publish-back-2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   justify-content: center;
 }
+
 .text-info {
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .text-info h1 {
   font-size: 2rem;
   width: 100%;
 }
+
 .started {
   width: 18rem;
   padding: 1.5rem;
@@ -90,6 +101,7 @@
   border: none;
   font-weight: 900;
 }
+
 .image-girl {
   width: 40%;
 }
@@ -99,29 +111,36 @@
   margin: 0;
   margin-top: 2rem;
 }
+
 .footer {
   margin-top: 8rem;
 }
+
 .foot-container {
   margin-top: 0;
 }
+
 @media only screen and (max-width: 768px) {
   .sub-section {
     justify-content: space-around;
   }
+
   .text-info h1 {
     font-size: 1.5rem;
   }
+
   .started {
     width: 13rem;
     padding: 1rem;
     font-size: 1.5rem;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .text-info h1 {
     font-size: 1.2rem;
   }
+
   .started {
     width: 10rem;
     font-size: 1.3rem;

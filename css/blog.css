@@ -14,6 +14,7 @@
   line-height: 36px;
   margin-top: 30px;
 }
+
 .banner {
   display: flex;
   justify-content: center;
@@ -30,8 +31,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
 }
+
 /* .blog-text p{
   text-align: center;
   width: 100%;
@@ -49,12 +51,14 @@
   font-size: 16px;
   line-height: 24px;
 }
+
 .two {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
+
 .top {
   display: flex;
   justify-content: space-around;
@@ -62,15 +66,18 @@
   width: 58%;
   margin-bottom: 107px;
 }
+
 .title-top-picks {
   font-size: 30px;
   font-weight: 800;
 }
+
 .search-div {
   width: 50%;
   display: flex;
   justify-content: center;
 }
+
 .search-div input {
   width: 472px;
   height: 50px;
@@ -83,10 +90,12 @@
   border: none;
   outline: none;
 }
+
 .search-divinput:active {
   border: none;
   outline: none;
 }
+
 .search-icon {
   background-color: #141426;
   width: 3rem;
@@ -94,9 +103,11 @@
   font-size: 1.5rem;
   padding: 1.3rem;
 }
+
 .search-icon i {
   color: #666666;
 }
+
 .filter-dropbtn {
   background: transparent;
   border: none;
@@ -114,20 +125,24 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 .underline-btn {
   width: 70%;
   border: 1px solid #9e9ba2;
 }
+
 .show {
   display: block;
 }
+
 #time-content {
   width: 8rem;
 }
+
 .filter-dropdown-content button {
   color: white;
   background: transparent;
-  padding: 0 16px;
+  padding: 0 10px;
   margin: 1rem 0;
   text-align: center;
   text-decoration: none;
@@ -137,6 +152,7 @@
   width: 100%;
   border: none;
 }
+
 .mid {
   width: 100%;
   display: flex;
@@ -144,17 +160,20 @@
   align-items: center;
   margin-bottom: 10rem;
 }
+
 .mid h1 {
   width: 100%;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 .topics {
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
+
 .topic {
   border-radius: 5px;
   width: 20rem;
@@ -166,16 +185,19 @@
   font-weight: 900;
   font-family: "Poppins", sans-serif;
 }
+
 .clicked {
   background: #95779f;
   border: none;
   color: #fff;
 }
+
 .bottom {
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -184,11 +206,13 @@
   column-gap: 5rem;
   row-gap: 5rem;
 }
+
 .card-flex {
   display: flex;
   justify-content: center;
   width: 100%;
 }
+
 .card {
   display: flex;
   width: 340px;
@@ -217,22 +241,27 @@
 .card img {
   width: 100%;
 }
+
 .summary {
   margin: 0;
 }
+
 .card a {
   color: #f6aaff;
   text-decoration: underline;
 }
+
 .card h1 {
   width: 90%;
   font-size: 1.7rem;
   text-align: left;
 }
+
 .card p {
   width: 90%;
   font-size: 1.5rem;
 }
+
 .released-on {
   display: flex;
   justify-content: flex-start;
@@ -241,45 +270,56 @@
   font-weight: 900;
   margin: 2rem 0;
 }
+
 .released-on img {
   width: 2rem;
 }
+
 .date,
 .time {
   font-size: 1.3rem;
 }
+
 .metaverse {
   display: grid;
   opacity: 1;
 }
+
 .crypto {
   display: none;
 }
+
 .web3 {
   display: none;
 }
+
 .vr-ar {
   display: none;
 }
+
 .blockchain {
   display: none;
 }
+
 #bottom-2 {
   display: none;
   margin-top: 20px;
 }
+
 #toggle-btn {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
+
 #more-btn {
   width: 7%;
   text-align: center;
   background: transparent;
   border: none;
 }
+
 #less-btn {
   display: none;
   width: 7%;
@@ -287,65 +327,78 @@
   background: transparent;
   border: none;
 }
+
 @media only screen and (max-width: 1300px) {
   .topic {
     width: 15rem;
   }
 }
+
 @media only screen and (max-width: 967px) {
   .topics {
     width: 100%;
   }
+
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .top {
     width: 70%;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .topics {
     overflow: scroll;
   }
+
   .topics::-webkit-scrollbar {
     width: 10px;
   }
+
   .topics::-webkit-scrollbar-track {
     display: none;
   }
+
   .topics::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: linear-gradient(
-      to right,
-      rgba(132, 29, 181, 1),
-      rgba(213, 131, 252, 0.58)
-    );
+    background: linear-gradient(to right,
+        rgba(132, 29, 181, 1),
+        rgba(213, 131, 252, 0.58));
   }
+
   .topic {
     font-size: 1.3rem;
     width: 13rem;
     min-width: 13rem;
     margin: 0 1rem;
   }
+
   .top {
     width: 90%;
   }
+
   .card-container {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .two {
     margin-bottom: 10rem;
   }
 }
+
 @media only screen and (max-width: 450px) {
   .top {
     width: 100%;
   }
+
   .filter-dropbtn {
     font-size: 1.3rem;
   }
+
   .card-container {
     grid-template-columns: repeat(1, 1fr);
   }

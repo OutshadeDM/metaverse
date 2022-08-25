@@ -1,19 +1,22 @@
 $(document).ready(function () {
+
   $(".responsive").slick({
     dots: true,
     arrows: true,
     variableWidth: true,
     infinite: false,
     speed: 300,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/arrow-left.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='../images/arrow-right.png'>",
     slidesToShow: 4.5,
     slidesToScroll: 1,
     onInit: function (e) {
       $(".slide-num").append(
         '<div class="slick-counter">' +
-          parseInt(e.currentSlide + 1, 10) +
-          " / " +
-          e.slideCount +
-          "</div>"
+        parseInt(e.currentSlide + 1, 10) +
+        " / " +
+        e.slideCount +
+        "</div>"
       );
     },
     onAfterChange: function (e) {

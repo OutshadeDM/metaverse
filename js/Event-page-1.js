@@ -7,13 +7,15 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 4.5,
     slidesToScroll: 1,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/arrow-left.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='../images/arrow-right.png'>",
     onInit: function (e) {
       $(".slide-num").append(
         '<div class="slick-counter">' +
-          parseInt(e.currentSlide + 1, 10) +
-          " / " +
-          e.slideCount +
-          "</div>"
+        parseInt(e.currentSlide + 1, 10) +
+        " / " +
+        e.slideCount +
+        "</div>"
       );
     },
     onAfterChange: function (e) {
@@ -60,13 +62,15 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 4.5,
     slidesToScroll: 1,
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/arrow-left.png'>",
+    nextArrow: "<img class='a-right control-c next slick-next' src='../images/arrow-right.png'>",
     onInit: function (e) {
       $(".slide-num-2").append(
         '<div class="slick-counter-2">' +
-          parseInt(e.currentSlide + 1, 10) +
-          " / " +
-          e.slideCount +
-          "</div>"
+        parseInt(e.currentSlide + 1, 10) +
+        " / " +
+        e.slideCount +
+        "</div>"
       );
     },
     onAfterChange: function (e) {

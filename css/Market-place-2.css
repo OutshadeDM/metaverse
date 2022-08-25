@@ -4,6 +4,7 @@
   justify-content: center;
   width: 100%;
 }
+
 .three-d {
   font-family: "Poppins";
   font-style: normal;
@@ -11,6 +12,7 @@
   font-size: 18px;
   margin: 6px;
 }
+
 .refresh {
   /* position: absolute; */
   width: 18px;
@@ -18,14 +20,18 @@
   /* margin-left: 380px;
   top:360px; */
 }
+
 .turn-image {
   position: absolute;
-  top: 362px;
-  left: 425px;
+  top: 10px;
+  right: -40px;
+  /* top: 362px;
+  left: 425px; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
 @media only screen and (min-width: 1400px) {
   .turn-image {
     position: absolute;
@@ -33,6 +39,7 @@
     left: 390px;
   }
 }
+
 @media only screen and (min-width: 1450px) {
   .turn-image {
     position: absolute;
@@ -40,6 +47,7 @@
     left: 430px;
   }
 }
+
 @media only screen and (min-width: 1600px) {
   .turn-image {
     position: absolute;
@@ -47,6 +55,7 @@
     left: 465px;
   }
 }
+
 @media only screen and (min-width: 1900px) {
   .turn-image {
     position: absolute;
@@ -54,23 +63,28 @@
     left: 500px;
   }
 }
+
 .one-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 50px;
 }
+
 .one-top {
   display: flex;
   width: 60%;
   align-items: center;
 }
+
 .search-div {
   width: 80%;
   display: flex;
   justify-content: center;
 }
+
 .search-div input {
   width: 80%;
   background-color: #141426;
@@ -82,10 +96,12 @@
   border: none;
   outline: none;
 }
+
 .search-divinput:active {
   border: none;
   outline: none;
 }
+
 .search-icon {
   background-color: #141426;
   width: 3rem;
@@ -93,12 +109,15 @@
   font-size: 1.5rem;
   padding-top: 0.6rem;
 }
+
 .search-icon i {
   color: #666666;
 }
+
 .create-item-cont {
   width: 30%;
 }
+
 .create-item-btn {
   padding: 1rem;
   border-radius: 30px;
@@ -110,24 +129,31 @@
   border: none;
   font-weight: 500;
 }
+
 .options-div {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 25px;
 }
+
 .options-elem {
   text-align: center;
 }
+
 .link {
   color: white;
   font-size: 1.5rem;
 }
+
 .on {
   border: 1px solid #76009f;
 }
+
 .off {
   border: 1px solid #fff;
 }
+
 .option {
   width: 6rem;
   height: 60%;
@@ -137,9 +163,11 @@
   align-items: center;
   margin: 2rem;
 }
+
 .option img {
   width: 40%;
 }
+
 .heading {
   font-size: 2rem;
   margin-left: 2rem;
@@ -147,17 +175,46 @@
   justify-content: space-between;
   width: 98%;
 }
+
 .heading h1 {
   margin: 0;
 }
+
 .slick-slider .slick-prev {
   position: absolute;
-  left: -5px;
+  left: -13px;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 31px !important;
+}
+
+.slick-slider {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.slick-prev,
+.slick-next {
+  height: 37px !important;
+}
+
+.foot-elem p {
+  margin: 0 !important;
+  color: #D1E0FB;
+}
+
+.foot-logo {
+  background: transparent;
+  box-shadow: 0 0 100px white;
+}
+
 .slick-slider .slick-next {
   position: absolute;
-  right: -5px;
+  right: -20px;
 }
+
 .car-card {
   display: flex;
   background-color: #171721;
@@ -166,10 +223,12 @@
   border-radius: 10px;
   box-shadow: 0 1px 1px rgba(255, 255, 255, 1);
 }
+
 .dummy {
   background-color: #0c0517;
   box-shadow: 0 0 0 rgba(255, 255, 255, 1);
 }
+
 .card-top {
   display: flex;
   /* justify-content: space-around; */
@@ -180,9 +239,11 @@
 .profile {
   margin: 0 0.6rem;
 }
+
 .prof-id {
   opacity: 0.4;
 }
+
 .dots button {
   background: transparent;
   border: none;
@@ -192,47 +253,57 @@
 .info h3 {
   margin: 0;
 }
+
 .mid-1 {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .mid-1 img {
   width: 95%;
   height: 100%;
 }
+
 .mid-2 {
   display: flex;
   justify-content: space-between;
   margin: 1rem 1rem;
 }
+
 .rating {
   display: flex;
 }
+
 .rating img {
   width: 1.3rem;
 }
+
 .timer-text {
   color: #b2b2b2;
   font-size: 12px;
   font-weight: 700;
   margin-top: 3px;
 }
+
 .name {
   font-size: 10px;
 }
+
 .time {
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 11px;
 }
+
 .bottom {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
   margin-bottom: 2rem;
 }
+
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -244,15 +315,18 @@
   transform: translateY(0);
   opacity: 1;
 }
+
 .bid-text {
   color: #b2b2b2;
   font-size: 1.1rem;
 }
+
 .bid-value {
   color: #fff;
   font-size: 1.2rem;
   margin-top: 5px;
 }
+
 .bid-btn {
   padding: 0;
   width: 106.61px;
@@ -271,26 +345,33 @@
   justify-content: space-between;
   width: 100%;
 }
+
 .selected-recent {
   display: flex;
   /* justify-content: center; */
   width: 65%;
 }
+
 .selected-image {
   width: 50%;
-  margin-left: 2rem;
+  margin-left: 5rem;
+  position: relative;
+  /* margin-left: 2rem; */
 }
+
 .selected-image img {
   width: 120%;
 }
+
 .selected-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0% 3%;
   width: 45%;
-  height: 440px;
+  height: 422px;
 }
+
 @media only screen and (min-width: 1400px) {
   .selected-text {
     display: flex;
@@ -300,6 +381,7 @@
     width: 65%;
   }
 }
+
 @media only screen and (min-width: 1800px) {
   .selected-text {
     display: flex;
@@ -309,31 +391,38 @@
     width: 85%;
   }
 }
+
 .cost-btn {
   display: flex;
 
   width: 400px;
 }
+
 .cost-details {
   margin-left: 7rem;
   margin-top: -45px;
 }
+
 .text-details {
   margin-left: 7rem;
 }
+
 .text-details h1 {
   font-size: 3rem;
   margin: 0;
 }
+
 .text-details h6 {
   font-size: 1.6rem;
   margin: 0;
   margin-top: 18px;
 }
+
 .text-details p {
   font-size: 1.5rem;
   width: 37rem;
 }
+
 .explore-btn {
   width: 14rem;
   background: transparent;
@@ -344,6 +433,7 @@
   font-size: 1.7rem;
   color: #95979c;
 }
+
 .view-btn {
   width: 14rem;
   background: transparent;
@@ -354,6 +444,7 @@
   font-size: 1.7rem;
   color: #95979c;
 }
+
 .buy-btn {
   width: 14rem;
   margin-right: 20px;
@@ -364,21 +455,25 @@
   font-size: 1.7rem;
   color: #fff;
 }
+
 .all-recent {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   width: 30%;
 }
+
 .recent-top {
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .recent-top h1 {
   font-size: 2rem;
 }
+
 .filter-dropbtn {
   background: transparent;
   cursor: pointer;
@@ -386,10 +481,12 @@
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
 }
+
 .drop-text {
   width: 3rem;
   border-bottom: 1px solid white;
 }
+
 .filter-dropdown-content {
   display: none;
   position: absolute;
@@ -399,6 +496,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 .show {
   display: block;
 }
@@ -424,6 +522,7 @@
   margin-top: 3rem;
   overflow-y: scroll;
 }
+
 .mid::-webkit-scrollbar {
   width: 5px;
 }
@@ -436,11 +535,9 @@
 
 .mid::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(
-    to bottom,
-    rgba(132, 29, 181, 1),
-    rgba(213, 131, 252, 0.58)
-  );
+  background: linear-gradient(to bottom,
+      rgba(132, 29, 181, 1),
+      rgba(213, 131, 252, 0.58));
 }
 
 .list-elem {
@@ -448,12 +545,15 @@
   justify-content: flex-start;
   cursor: pointer;
 }
+
 .elem-img {
   width: 20%;
 }
+
 .elem-img img {
   width: 100%;
 }
+
 .elem-text {
   margin: 0 2rem;
 }
@@ -476,6 +576,7 @@
   border-bottom: 1px solid #fff;
   font-family: "Poppins", sans-serif;
 }
+
 .views {
   display: flex;
   width: 20%;
@@ -484,27 +585,33 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
 .view-count {
   margin-left: 3px;
   margin-top: 10px;
 }
+
 .views img {
   width: 20px;
   height: 10px;
   margin-top: 10px;
 }
+
 @media only screen and (max-width: 950px) {
   .selected-recent {
     width: 60%;
   }
+
   .all-recent {
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .all-recent {
     display: none;
   }
+
   .selected-recent {
     width: 100%;
   }
@@ -514,15 +621,18 @@
   .heading {
     font-size: 1.5rem;
   }
+
   .selected-recent {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .selected-image {
     width: 80%;
     margin-left: 0;
   }
+
   .selected-text {
     width: 80%;
   }
