@@ -32,7 +32,7 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
   .turn-image {
     position: absolute;
     top: 362px;
@@ -62,7 +62,7 @@
     top: 362px;
     left: 500px;
   }
-}
+} */
 
 .one-container {
   display: flex;

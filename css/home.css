@@ -703,9 +703,9 @@ img {
   filter: invert(1);
   width: 18px;
   z-index: 2;
-  position: absolute;
-  top: 8px;
-  left: 224px;
+  position: relative;
+  top: -169px;
+  left: 201px;
   object-fit: contain;
 }
 

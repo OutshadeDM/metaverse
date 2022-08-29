@@ -71,6 +71,30 @@ const config = {
 
 const myChart = new Chart(document.getElementById("myChart"), config);
 
+
+
+
+// var modal1 = document.getElementById("addCoin1");
+
+// // Get the button that opens the modal
+// var btn1 = document.getElementById("coin-btn1");
+
+// // When the user clicks the button, open the modal
+// btn.onclick = function () {
+//   modal1.style.display = "block";
+// };
+
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function (event) {
+//   if (event.target == modal1) {
+//     modal1.style.display = "none";
+//   }
+// };
+// window.onclick = function (event) {
+//   alert("hello");
+// };
+
 var modal = document.getElementById("addCoin");
 
 // Get the button that opens the modal
@@ -81,10 +105,10 @@ btn.onclick = function () {
   modal.style.display = "block";
 };
 
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 };
-
