@@ -64,23 +64,25 @@
   line-height: 24px;
 }
 .cards {
-  width: 108%;
+  width: 105%;
+  height:407px;
   display: flex;
   justify-content: space-around;
 }
 .card {
   display: flex;
-  width: 340px;
-  height: 407px;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #171721;
-  border-radius: 10px;
-  border: 1px solid #db00ff;
-  padding: 1rem;
-  margin: 10px;
+    width: 401px;
+    height: 352px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #171721;
+    border-radius: 10px;
+    border: 1px solid #db00ff;
+    padding:10px;
+    padding-top: 30px;
+    margin: 10px;
 }
 .layer {
   transition: 0.5s ease;
@@ -169,7 +171,7 @@
   justify-content: flex-start;
   width: 90%;
   color: #8b8b90;
-  font-weight: 900;
+  font-weight: 400;
   margin: 2rem 0;
   margin-bottom: 1rem;
 }

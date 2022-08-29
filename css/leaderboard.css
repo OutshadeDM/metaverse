@@ -16,8 +16,7 @@ body {
 
 .foot-logo {
   background: transparent;
-  box-shadow: 0 0 100px white;
-}
+ }
 
 .sub-nav {
   display: flex;

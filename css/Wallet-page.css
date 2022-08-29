@@ -22,13 +22,12 @@ body {
 }
 
 .foot-elem p {
-  color: #D1E0FB;
+  color: #d1e0fb;
 }
 
 .foot-logo {
   background: transparent;
-  box-shadow: 0 0 100px white;
-}
+ }
 
 .sub-nav a {
   color: #8a8a8a;
@@ -104,9 +103,11 @@ body {
 .separation {
   width: 100%;
   height: 20px;
-  background: linear-gradient(to bottom,
-      rgba(45, 17, 57, 0.06),
-      rgba(83, 26, 96, 1));
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 17, 57, 0.06),
+    rgba(83, 26, 96, 1)
+  );
   margin: 0 0 1rem 0;
 }
 
@@ -158,12 +159,12 @@ body {
   /* Full height */
   overflow: auto;
   /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0,1); */
   /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0,0.8);
   /* Black w/ opacity */
 }
-.modal1{
+.modal1 {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -188,7 +189,7 @@ body {
 
 /* Modal Content */
 .add-coin-content {
-  background: url(../images/add-coins.png);
+  background: rgb(38,19,68);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: auto;
@@ -200,10 +201,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding: 30px 20px;
 }
 
 .add-coin-head {
-  font-size: 2rem;
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .card-wrap {
@@ -216,7 +223,7 @@ body {
 .coin-card {
   width: 25%;
   height: 90%;
-  background: url(../images/add-coin-card.png);
+  background: #171721;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -352,9 +359,11 @@ body {
 
 .logs::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(to bottom,
-      rgba(132, 29, 181, 1),
-      rgba(213, 131, 252, 0.58));
+  background: linear-gradient(
+    to bottom,
+    rgba(132, 29, 181, 1),
+    rgba(213, 131, 252, 0.58)
+  );
 }
 
 .logs table {
@@ -387,9 +396,11 @@ body {
   z-index: 1;
   margin-top: -3rem;
   height: 3rem;
-  background: linear-gradient(to bottom,
-      rgba(32, 17, 58, 0.35),
-      rgba(32, 17, 58, 1));
+  background: linear-gradient(
+    to bottom,
+    rgba(32, 17, 58, 0.35),
+    rgba(32, 17, 58, 1)
+  );
 }
 
 .three {
@@ -467,9 +478,11 @@ body {
 
 .table-div::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(to bottom,
-      rgba(132, 29, 181, 1),
-      rgba(213, 131, 252, 0.58));
+  background: linear-gradient(
+    to bottom,
+    rgba(132, 29, 181, 1),
+    rgba(213, 131, 252, 0.58)
+  );
 }
 
 .table-div thead tr th {
@@ -527,14 +540,13 @@ a slight movement of the header row */
 .transaction {
   margin-right: 462px;
   margin-top: 17px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 36px;
   /* identical to box height */
   color: rgba(255, 255, 255, 0.81);
-
 }
 
 @media only screen and (max-width: 1080px) {
