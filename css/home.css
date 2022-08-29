@@ -44,6 +44,8 @@ body {
 
 .big-img-container {
   position: relative;
+  /* height: 100vh; */
+  /* width: 100vw; */
 }
 
 .small-img-container {
@@ -58,12 +60,12 @@ body {
   background-size: contain;
 } */
 
-.swiper-main img {
+/* .swiper-main img {
   /* height: 100vh !important; */
-}
+/* }
 
 .thumb-container {
-}
+}  */
 
 .main-container {
   position: relative;
@@ -684,8 +686,8 @@ img {
 }
 
 .gradient-button {
-  width: 148px;
-  height: 50px;
+  width: 152px;
+  height: 58.5px;
   padding: 1rem;
   border-radius: 30px;
   color: white;
