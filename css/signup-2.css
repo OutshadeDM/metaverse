@@ -18,9 +18,12 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+
   align-items: center;
-  padding: 3rem;
-  width: 30%;
+  width: 420px;
+  height: 480px;
+  padding: 0px 55px;
+  padding-top: 70px;
   background-image: url(../images/signup-back.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -29,15 +32,33 @@ body {
 .container h1 {
   margin: 0 0 3rem 0;
   text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
 }
 .email-details {
   text-align: center;
   margin: 0 0 3rem 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 16px;
+  opacity: 0.7;
 }
 
 .container p {
   text-align: center;
   margin: 0 0 3rem 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  opacity: 0.7;
 }
 
 .digit-group {
@@ -48,12 +69,12 @@ body {
 }
 .inputs {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
 }
 input {
-  width: 3rem;
-  height: 3rem;
+  width: 50px;
+  height: 50px;
   border: 1px solid rgba(146, 52, 193, 1);
   line-height: 50px;
   background-color: rgba(58, 47, 73, 1);
@@ -87,8 +108,9 @@ input {
   margin: 2rem 0;
 }
 .signup-btn button {
-  width: 100%;
-  padding: 1rem;
+  width: 390px;
+  height: 50px;
+
   color: white;
   background: linear-gradient(
     to right,
@@ -96,16 +118,26 @@ input {
     rgba(56, 50, 205, 1)
   );
   border-radius: 40px;
-  font-size: 1.3rem;
-  font-family: "Poppins", "sans-serif";
   cursor: pointer;
   box-shadow: 0 0px 20px 1px #9a33c9;
   border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 12px;
 }
 .resend {
   display: flex;
   justify-content: center;
   width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
 }
 .resend button {
   background: transparent;
@@ -113,9 +145,10 @@ input {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  margin: 0 0.5rem;
+  font-weight: 700;
   cursor: pointer;
   border-bottom: 1px solid white;
+  opacity: 1;
 }
 @media only screen and (max-width: 900px) {
   .container {
