@@ -56,7 +56,7 @@ px
 
 .foot-elem p {
   margin: 0 !important;
-  color: #D1E0FB;
+  color: #d1e0fb;
 }
 
 .foot-logo {
@@ -235,10 +235,11 @@ px
 }
 
 .two-2 {
-  width: 100%;
+  width: 107%;
   display: flex;
-  justify-content: center;
+
   margin-bottom: 100px;
+  padding-left: 50px;
 }
 
 .container {
@@ -552,7 +553,7 @@ px
 }
 
 .time {
-  color: #8B8B90;
+  color: #8b8b90;
   /* font-size: 1.5rem; */
   margin-top: 0.7rem;
   font-family: "Poppins";

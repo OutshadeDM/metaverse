@@ -6,7 +6,7 @@
 }
 
 .one h1 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -49,9 +49,23 @@
   margin-right: 1rem;
 }
 
-.info {
-  /* margin-left: 263px; */
-  /* width: 432px; */
+@media only screen and (min-width: 1350px) {
+  .label-container,
+  .info {
+    margin-left: 75px;
+  }
+}
+@media only screen and (min-width: 1485px) {
+  .label-container,
+  .info {
+    margin-left: 100px;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .label-container,
+  .info {
+    margin-left: 120px;
+  }
 }
 
 .event-template {
@@ -99,7 +113,6 @@
   height: 90px;
   margin-top: 165px;
   margin-left: 17px;
-
 }
 
 .details {
@@ -127,7 +140,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 #form-div {
@@ -137,11 +149,9 @@
   align-items: flex-start;
   gap: 10px;
   margin-right: 64px;
-
 }
 
 #form-div label {
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -164,7 +174,7 @@
 }
 
 #form-div input {
-  width: 362px;
+  width: 329px;
   height: 50px;
 }
 
@@ -184,7 +194,7 @@
   display: none;
 }
 
-input[type="radio"]:checked+label>img {
+input[type="radio"]:checked + label > img {
   filter: brightness(120%);
 }
 
@@ -248,7 +258,8 @@ input[type="radio"]:checked+label>img {
 .buttons {
   width: 100%;
   text-align: right;
-  margin-top: 30px;
+  margin-top: -230px;
+  margin-left: 50px;
 }
 
 .buttons button {
@@ -259,6 +270,11 @@ input[type="radio"]:checked+label>img {
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 #cancel {
@@ -275,9 +291,6 @@ input[type="radio"]:checked+label>img {
 }
 
 /*  */
-
-
-
 
 @media only screen and (max-width: 730px) {
   .schedule {
