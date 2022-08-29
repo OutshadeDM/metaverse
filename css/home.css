@@ -703,11 +703,45 @@ img {
   filter: invert(1);
   width: 18px;
   z-index: 2;
-  position: relative;
-  top: -169px;
-  left: 201px;
+  
   object-fit: contain;
 }
+.heart-div{
+  position: absolute;
+  top: 10px;
+  left: 220px;
+}
+@media only screen and (min-width: 1330px) {
+  .heart-div{
+    position: absolute;
+    top: 10px;
+    left: 236px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .heart-div{
+  position: absolute;
+  top: 10px;
+  left: 253px;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+  .heart-div{
+  position: absolute;
+  top: 10px;
+  left: 270px;
+}
+}
+
+@media only screen and (min-width: 1600px) {
+  .heart-div{
+  position: absolute;
+  top: 10px;
+  left: 285px;
+}
+} 
 
 .gradient-button-exp {
   width: 137px;
