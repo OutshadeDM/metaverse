@@ -12,7 +12,7 @@ body {
 }
 
 .foot-elem p {
-  color: #D1E0FB;
+  color: #d1e0fb;
 }
 
 .sub-nav {
@@ -96,7 +96,8 @@ body {
 }
 
 .profile-image {
-  width: 50%;
+  width: 196px;
+  height: 196px;
   border-radius: 50%;
   border: 1px solid #a032d4;
   padding: 0.5rem;
@@ -118,6 +119,11 @@ body {
 .email {
   font-size: 1.3rem;
   margin: 1rem 0 2rem 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .name,
@@ -173,9 +179,11 @@ body {
 }
 
 #submit {
-  background: linear-gradient(to right,
-      rgba(178, 30, 202, 1),
-      rgba(96, 91, 208, 1));
+  background: linear-gradient(
+    to right,
+    rgba(178, 30, 202, 1),
+    rgba(96, 91, 208, 1)
+  );
   padding: 7px 25px;
   border-radius: 20px;
   color: #fff;
@@ -189,9 +197,10 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 2rem;
+  padding: 2rem 0rem;
   height: 95%;
   border-radius: 15px;
+  padding-top: 8px;
 }
 
 .full-details {
@@ -301,6 +310,11 @@ body {
   } */
   .email {
     font-size: 1.3rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
   }
 
   .points {

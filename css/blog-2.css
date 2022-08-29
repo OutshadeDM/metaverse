@@ -132,14 +132,12 @@
   background-image: linear-gradient(to right, #b21eca, #605bd0);
   box-shadow: -5px 5px 10px rgb(52, 38, 58);
   border: none;
-  margin-top: 30px;
-  font-weight: 900;
-  margin-left: 120px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
+  margin-top: -40px;
 }
 .layer p {
   width: 85%;
@@ -193,7 +191,7 @@
   margin-top: 2rem;
 }
 .video h1 {
-  width: 100%;
+  width: 80%;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -214,7 +212,7 @@
   width: 5rem;
   position: absolute;
   top: 43%;
-  left: 38%;
+  left: 37.5%;
   background: transparent;
   border: none;
 }
