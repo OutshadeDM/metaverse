@@ -1414,7 +1414,6 @@ img {
   .explore-text p {
     width: 90%;
   }
- 
 }
 
 @media only screen and (max-width: 650px) {
@@ -1426,7 +1425,7 @@ img {
   }
 
   #message-elem {
-    width: 89%;
+    width: 103%;
     grid-column: 1;
   }
 
@@ -1442,6 +1441,14 @@ img {
 
   .form-btn button {
     width: 80%;
+    width: 121px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-elem{
+    height: 107px;
   }
 
   .roadmap-2 {
@@ -1549,10 +1556,25 @@ img {
   .survey-purple-background h1 {
     margin-bottom: 0;
   }
-
   .form-btn {
-    margin-top: 5rem;
+    /* margin-top: -1rem;
+    margin-left: -20rem; */
+    width: 121px;
+    height: 34px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    margin-right: 215px;
+    margin-top:85px;
   }
+  .survey-purple-background h1 {
+    margin-left: -133px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -1578,33 +1600,43 @@ img {
     top: 15px;
     left: 317px;
   }
-  .five{
+  .five {
     width: 104%;
   }
-  .six{
+  .six {
     width: 100vw;
     height: 82vh;
   }
-  .civil-card{
+  .civil-card {
     flex-direction: column-reverse;
   }
-  .slick-dots li button::before{
+  .slick-dots li button::before {
     width: 50px !important;
   }
-  .slick-dots li{
+  .slick-dots li {
     margin: 20px !important;
   }
-  .eight{
+  .eight {
     width: 104%;
     height: 80vh;
     margin-bottom: 40px;
   }
-  .survey-container{
+  .survey-container {
     height: 70rem;
   }
-  .footer{
+  .footer {
     height: 70vh;
     width: 100vw;
+  }
+  .form-elem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 122px;*/
+  }
+  .survey-form {
+    height: 52%;
+    margin-left:-17px;
   }
 }
 
