@@ -387,7 +387,19 @@
 @media only screen and (max-width: 500px) {
   .two {
     margin-bottom: 10rem;
+    
   }
+  .top {
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+}
+.search-div{
+  margin-bottom: 20px;
+}
+.filter-dropbtn {
+  margin-bottom: 10px;
+}
 }
 
 @media only screen and (max-width: 450px) {

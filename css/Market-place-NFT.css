@@ -343,4 +343,8 @@ li.active .underline hr {
     margin-left: 3rem;
     margin-top: 7rem;
   }
+  .search-div{
+    width: 300px;
+    margin-left: 48px;
+  }
 }
