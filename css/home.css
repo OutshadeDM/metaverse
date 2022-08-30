@@ -703,16 +703,16 @@ img {
   filter: invert(1);
   width: 18px;
   z-index: 2;
-  
+
   object-fit: contain;
 }
-.heart-div{
+.heart-div {
   position: absolute;
   top: 10px;
   left: 220px;
 }
 @media only screen and (min-width: 1330px) {
-  .heart-div{
+  .heart-div {
     position: absolute;
     top: 10px;
     left: 236px;
@@ -720,28 +720,28 @@ img {
 }
 
 @media only screen and (min-width: 1450px) {
-  .heart-div{
-  position: absolute;
-  top: 10px;
-  left: 253px;
-}
+  .heart-div {
+    position: absolute;
+    top: 10px;
+    left: 253px;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
-  .heart-div{
-  position: absolute;
-  top: 10px;
-  left: 270px;
-}
+  .heart-div {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
-  .heart-div{
-  position: absolute;
-  top: 10px;
-  left: 285px;
+  .heart-div {
+    position: absolute;
+    top: 10px;
+    left: 285px;
+  }
 }
-} 
 
 .gradient-button-exp {
   width: 137px;
@@ -1414,6 +1414,7 @@ img {
   .explore-text p {
     width: 90%;
   }
+ 
 }
 
 @media only screen and (max-width: 650px) {
@@ -1562,6 +1563,48 @@ img {
   .partner-1 img {
     width: 80%;
     height: 90%;
+  }
+  .big-img-container {
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+  }
+  .section {
+    margin-bottom: 10px;
+    height: 600px;
+  }
+  .heart-div {
+    position: absolute;
+    top: 15px;
+    left: 317px;
+  }
+  .five{
+    width: 104%;
+  }
+  .six{
+    width: 100vw;
+    height: 82vh;
+  }
+  .civil-card{
+    flex-direction: column-reverse;
+  }
+  .slick-dots li button::before{
+    width: 50px !important;
+  }
+  .slick-dots li{
+    margin: 20px !important;
+  }
+  .eight{
+    width: 104%;
+    height: 80vh;
+    margin-bottom: 40px;
+  }
+  .survey-container{
+    height: 70rem;
+  }
+  .footer{
+    height: 70vh;
+    width: 100vw;
   }
 }
 
