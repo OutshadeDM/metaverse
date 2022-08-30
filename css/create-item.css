@@ -317,6 +317,16 @@ input[type="radio"]:checked + label > img {
     width: 80%;
     margin-left: -5rem;
   }
+  #form-div textarea
+  {
+    width: 360px;
+  }
+  .label-container{
+    width: 303px;
+  }
+  #form-div{
+    margin-right:10px ;
+  }
 }
 
 @media only screen and (max-width: 365px) {

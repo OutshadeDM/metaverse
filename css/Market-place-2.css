@@ -614,6 +614,18 @@
   .selected-recent {
     width: 100%;
   }
+  .text-details,.cost-details{
+    margin-left: 0;
+  }
+  .one-top {
+    flex-direction: column;
+  }
+  .search-div{
+    margin-bottom:20px;
+  }
+  .create-item-cont {
+    width: 49%;
+}
 }
 
 @media only screen and (max-width: 480px) {

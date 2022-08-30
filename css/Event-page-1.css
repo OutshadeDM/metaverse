@@ -62,7 +62,6 @@ px
 .foot-logo {
   color: #111;
   background: transparent;
-  
 }
 
 .slick-slider .slick-next {
@@ -622,6 +621,25 @@ px
   .option {
     width: 6rem;
     height: 40%;
+  }
+  .selected-event {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .selected-text-2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* padding: 0px 35px; */
+    width: 116%;
+  }
+  .text-details {
+    margin: 0;
+  }
+  .cost-details {
+    margin: 0;
   }
 }
 
