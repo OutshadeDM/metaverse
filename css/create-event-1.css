@@ -341,6 +341,7 @@ input[type="radio"]:checked+label>img {
 @media only screen and (max-width: 500px) {
   .category-cards {
     grid-template-columns: repeat(1, 1fr);
+    margin-right: -39px;
   }
 
   .event-form {
